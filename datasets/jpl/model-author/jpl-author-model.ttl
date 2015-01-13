@@ -1,0 +1,1826 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schemax: <http://topbraid.org/schemax/> .
+@prefix schema: <http://schema.org/> .
+@prefix memex: <http://memexproxy.com/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ht: <http://memexproxy.com/ontology/human-trafficking/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node19bfq240rx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "jpl-solr-pdf.json" ;
+	km-dev:modelPublicationTime "1421091082267"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"url\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"id\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"author\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"featurecollection_uri\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"uri\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"author_clean3\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"id\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"author_clean2\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"person_uri\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"author_clean\"}],[{\"columnName\":\"response\"},{\"columnName\":\"docs\"},{\"columnName\":\"author_uri\"}]]" ;
+	km-dev:hasModelLabel "jpl-solr-pdf.json" ;
+	km-dev:hasBaseURI "http://memex.zapto.org/data/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"url\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"uri\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return \\\"http://memex.zapto.org/data/page/\\\"+get_url_hash(getValue(\\\"url\\\"))+\\\"/processed\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"url\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://schema.org/WebPage\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://schema.org/WebPage1 (add)\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"schema:WebPage1 (add)\",
+                    \"DomainId\": \"http://schema.org/WebPage1 (add)\",
+                    \"DomainUri\": \"http://schema.org/WebPage\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"author_clean\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return clean_name(getValue(\\\"author\\\"))\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"author_clean2\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return getValue(\\\"author_clean\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean2\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean2\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"author_uri\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return author_uri(getValue(\\\"author_clean\\\"))\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"author_clean3\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return getValue(\\\"author_clean\\\")\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean3\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean3\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"person_uri\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return person_name_uri(getValue(\\\"author_clean\\\"))\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"person_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"value\": \"WSP10:WS1AL\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://memexproxy.com/ontology/FeatureCollection\",
+                    \"edgeId\": \"http://memexproxy.com/ontology/hasFeatureCollection\",
+                    \"edgeSourceId\": \"http://schema.org/WebPage1\",
+                    \"edgeTargetId\": \"http://memexproxy.com/ontology/FeatureCollection1 (add)\",
+                    \"edgeSourceUri\": \"http://schema.org/WebPage1\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"value\": \"featurecollection_uri\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"value\": \"return getValue(\\\"uri\\\") + \\\"/featurecollection\\\"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"value\": \"false\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"featurecollection_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SubmitPythonTransformationCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"featurecollection_uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://memexproxy.com/ontology/FeatureCollection\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://memexproxy.com/ontology/FeatureCollection1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:FeatureCollection1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/FeatureCollection1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/FeatureCollection\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"featurecollection_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"featurecollection_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"value\": \"WSP10:WS1AL\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://memexproxy.com/ontology/Feature\",
+                    \"edgeId\": \"http://memexproxy.com/ontology/author_feature\",
+                    \"edgeSourceId\": \"http://memexproxy.com/ontology/FeatureCollection1\",
+                    \"edgeTargetId\": \"http://memexproxy.com/ontology/Feature1 (add)\",
+                    \"edgeSourceUri\": \"http://memexproxy.com/ontology/FeatureCollection1\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"value\": \"WSP10:WS1AL\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://schema.org/WebPage\",
+                    \"edgeId\": \"http://www.w3.org/ns/prov#wasDerivedFrom\",
+                    \"edgeSourceId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"edgeTargetId\": \"http://schema.org/WebPage1\",
+                    \"edgeSourceUri\": \"http://memexproxy.com/ontology/Feature1\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://memexproxy.com/ontology/featureValue\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:Feature1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/Feature\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean2\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://memexproxy.com/ontology/author\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:Feature1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/Feature\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean2\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean2\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"id\": [{\"columnName\": \"responseHeader\"}],
+                        \"visible\": false,
+                        \"hideable\": true,
+                        \"name\": \"responseHeader\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"status\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"status\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"QTime\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"QTime\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"params\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"params\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"indent\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"indent\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"q\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"q\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"wt\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"wt\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"rows\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"rows\\\\\\\"}]\\\"}]\"
+                    },
+                    {
+                        \"id\": [{\"columnName\": \"response\"}],
+                        \"visible\": true,
+                        \"hideable\": false,
+                        \"name\": \"response\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"numFound\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"numFound\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"start\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"start\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"}],\\\"visible\\\":true,\\\"hideable\\\":false,\\\"name\\\":\\\"docs\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lastModified\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lastModified\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"segment\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"segment\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"digest\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"digest\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tstamp\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tstamp\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"date\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"date\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"type\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"type\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"type\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lang\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lang\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"url\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"url\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"id\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"id\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"content\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"content\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"boost\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"boost\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"_version_\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"_version_\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"contentLength\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"contentLength\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"title\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"title\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"title\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"anchor\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"anchor\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"anchor\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tag\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tag\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"tag\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"feed\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"feed\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"publishedDate\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"publishedDate\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"author\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean2\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean2\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"author_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean3\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean3\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"person_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"person_uri\\\\\\\"}]\\\"}]\"
+                    }
+                ],
+                \"type\": \"orderedColumns\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"OrganizeColumnsCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"value\": \"author\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"value\": \"xsd:string\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"AddLiteralNodeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"author\",
+                    \"edgeId\": \"http://memexproxy.com/ontology/featureName\",
+                    \"edgeSourceId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"edgeTargetId\": \"author1\",
+                    \"edgeSourceUri\": \"http://memexproxy.com/ontology/Feature\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://memexproxy.com/ontology/Feature\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://memexproxy.com/ontology/Feature1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:Feature1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/Feature\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"value\": \"WSP10:WS1AL\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://memexproxy.com/ontology/PersonName\",
+                    \"edgeId\": \"http://memexproxy.com/ontology/featureObject\",
+                    \"edgeSourceId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"edgeTargetId\": \"http://memexproxy.com/ontology/PersonName1 (add)\",
+                    \"edgeSourceUri\": \"http://memexproxy.com/ontology/Feature1\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"author_clean3\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://memexproxy.com/ontology/person_name\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:PersonName1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/PersonName1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/PersonName\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean3\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"author_clean3\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"person_uri\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"value\": \"isUriOfClass\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"value\": \"http://memexproxy.com/ontology/PersonName\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"value\": \"http://memexproxy.com/ontology/PersonName1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"memex:PersonName1\",
+                    \"DomainId\": \"http://memexproxy.com/ontology/PersonName1\",
+                    \"DomainUri\": \"http://memexproxy.com/ontology/PersonName\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"person_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"person_uri\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetMetaPropertyCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"alignmentId\",
+                \"value\": \"WSP10:WS1AL\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://www.w3.org/ns/prov#Activity\",
+                    \"edgeId\": \"http://www.w3.org/ns/prov#wasGeneratedBy\",
+                    \"edgeSourceId\": \"http://memexproxy.com/ontology/Feature1\",
+                    \"edgeTargetId\": \"http://www.w3.org/ns/prov#Activity1 (add)\",
+                    \"edgeSourceUri\": \"http://memexproxy.com/ontology/Feature1\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"id\": [{\"columnName\": \"responseHeader\"}],
+                        \"visible\": false,
+                        \"hideable\": true,
+                        \"name\": \"responseHeader\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"status\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"status\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"QTime\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"QTime\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"params\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"params\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"indent\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"indent\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"q\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"q\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"wt\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"wt\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"rows\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"rows\\\\\\\"}]\\\"}]\"
+                    },
+                    {
+                        \"id\": [{\"columnName\": \"response\"}],
+                        \"visible\": true,
+                        \"hideable\": false,
+                        \"name\": \"response\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"numFound\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"numFound\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"start\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"start\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"}],\\\"visible\\\":true,\\\"hideable\\\":false,\\\"name\\\":\\\"docs\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lastModified\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lastModified\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"segment\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"segment\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"digest\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"digest\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tstamp\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tstamp\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"date\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"date\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"type\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"type\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"type\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lang\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lang\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"url\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"url\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"id\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"id\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"content\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"content\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"boost\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"boost\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"_version_\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"_version_\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"contentLength\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"contentLength\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"title\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"title\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"title\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"anchor\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"anchor\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"anchor\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tag\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tag\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"tag\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"feed\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"feed\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"publishedDate\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"publishedDate\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"author\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean2\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean2\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean3\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean3\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"person_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"person_uri\\\\\\\"}]\\\"}]\"
+                    }
+                ],
+                \"type\": \"orderedColumns\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"OrganizeColumnsCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"response\"},
+                    {\"columnName\": \"docs\"},
+                    {\"columnName\": \"id\"}
+                ],
+                \"type\": \"hNodeId\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"value\": [{
+                    \"FullType\": \"http://memexproxy.com/ontology/databaseId\",
+                    \"isPrimary\": true,
+                    \"DomainLabel\": \"prov:Activity1\",
+                    \"DomainId\": \"http://www.w3.org/ns/prov#Activity1\",
+                    \"DomainUri\": \"http://www.w3.org/ns/prov#Activity\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"value\": false,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"id\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"},{\\\"columnName\\\":\\\"id\\\"}]}]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetSemanticTypeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"literalValue\",
+                \"value\": \"http://memex.zapto.org/data/software/jpl/version/0.1\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"literalType\",
+                \"value\": \"\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"isUri\",
+                \"value\": true,
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"AddLiteralNodeCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"initialEdges\",
+                \"value\": [],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"newEdges\",
+                \"value\": [{
+                    \"edgeTargetUri\": \"http://memex.zapto.org/data/software/jpl/version/0.1\",
+                    \"edgeId\": \"http://www.w3.org/ns/prov#wasAttributedTo\",
+                    \"edgeSourceId\": \"http://www.w3.org/ns/prov#Activity1\",
+                    \"edgeTargetId\": \"http://memex.zapto.org/data/software/jpl/version/0.11\",
+                    \"edgeSourceUri\": \"http://www.w3.org/ns/prov#Activity\"
+                }],
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"ChangeInternalNodeLinksCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"properties\",
+                \"value\": {
+                    \"hasServiceProperties\": false,
+                    \"hasPrefix\": true,
+                    \"prefix\": \"memex\",
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": false
+                },
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetWorksheetPropertiesCommand\"
+    },
+    {
+        \"tags\": [\"Modeling\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"properties\",
+                \"value\": {
+                    \"hasServiceProperties\": false,
+                    \"hasPrefix\": false,
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://memex.zapto.org/data/\"
+                },
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetWorksheetPropertiesCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"id\": [{\"columnName\": \"responseHeader\"}],
+                        \"visible\": false,
+                        \"hideable\": true,
+                        \"name\": \"responseHeader\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"status\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"status\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"QTime\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"QTime\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"responseHeader\\\"},{\\\"columnName\\\":\\\"params\\\"}],\\\"visible\\\":true,\\\"hideable\\\":true,\\\"name\\\":\\\"params\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"indent\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"indent\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"q\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"q\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"wt\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"wt\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"responseHeader\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"params\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"rows\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"rows\\\\\\\"}]\\\"}]\"
+                    },
+                    {
+                        \"id\": [{\"columnName\": \"response\"}],
+                        \"visible\": true,
+                        \"hideable\": false,
+                        \"name\": \"response\",
+                        \"children\": \"[{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"numFound\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"numFound\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"start\\\"}],\\\"visible\\\":false,\\\"hideable\\\":true,\\\"name\\\":\\\"start\\\"},{\\\"id\\\":[{\\\"columnName\\\":\\\"response\\\"},{\\\"columnName\\\":\\\"docs\\\"}],\\\"visible\\\":true,\\\"hideable\\\":false,\\\"name\\\":\\\"docs\\\",\\\"children\\\":\\\"[{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lastModified\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lastModified\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"segment\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"segment\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"digest\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"digest\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tstamp\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tstamp\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"date\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"date\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"type\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"type\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"type\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"lang\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"lang\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"url\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"url\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"featurecollection_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"content\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"content\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"boost\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"boost\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"_version_\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"_version_\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"contentLength\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"contentLength\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"title\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"title\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"title\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"anchor\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"anchor\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"anchor\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"tag\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"tag\\\\\\\",\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"response\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"docs\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"tag\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}],\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"hideable\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"values\\\\\\\\\\\\\\\"}]\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"feed\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"feed\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"publishedDate\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"publishedDate\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author\\\\\\\"}],\\\\\\\"visible\\\\\\\":false,\\\\\\\"hideable\\\\\\\":true,\\\\\\\"name\\\\\\\":\\\\\\\"author\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean2\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean2\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"author_clean3\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"author_clean3\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"person_uri\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"person_uri\\\\\\\"},{\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"response\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"docs\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"id\\\\\\\"}],\\\\\\\"visible\\\\\\\":true,\\\\\\\"hideable\\\\\\\":false,\\\\\\\"name\\\\\\\":\\\\\\\"id\\\\\\\"}]\\\"}]\"
+                    }
+                ],
+                \"type\": \"orderedColumns\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"OrganizeColumnsCommand\"
+    }
+]""" .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 a rr:TriplesMap .
+
+_:node19bfq240rx1 km-dev:hasTriplesMap km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx2 rr:tableName "jpl-solr-pdf.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasLogicalTable _:node19bfq240rx2 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:logicalTable _:node19bfq240rx2 ;
+	rr:subjectMap _:node19bfq240rx3 .
+
+_:node19bfq240rx1 km-dev:hasSubjectMap _:node19bfq240rx3 .
+
+_:node19bfq240rx3 km-dev:isPartOfMapping _:node19bfq240rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://memexproxy.com/ontology/Feature1" ;
+	rr:class memex:Feature ;
+	rr:template "{[\"response\",\"docs\",\"author_uri\"]}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_181eba02-e246-49b7-ada7-c344ba5e2cc4 rr:predicate memex:author .
+
+_:node19bfq240rx4 rr:column "[\"response\",\"docs\",\"author_clean\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx4 .
+
+km-dev:PredicateObjectMap_181eba02-e246-49b7-ada7-c344ba5e2cc4 rr:objectMap _:node19bfq240rx4 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_181eba02-e246-49b7-ada7-c344ba5e2cc4 .
+
+km-dev:PredicateObjectMap_181eba02-e246-49b7-ada7-c344ba5e2cc4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_181eba02-e246-49b7-ada7-c344ba5e2cc4 .
+
+km-dev:PredicateObjectMap_846ad3bf-b4c9-4646-b65b-3253f632d35b rr:predicate memex:featureName .
+
+_:node19bfq240rx5 rr:constant "author" ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx5 .
+
+km-dev:PredicateObjectMap_846ad3bf-b4c9-4646-b65b-3253f632d35b rr:objectMap _:node19bfq240rx5 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_846ad3bf-b4c9-4646-b65b-3253f632d35b .
+
+km-dev:PredicateObjectMap_846ad3bf-b4c9-4646-b65b-3253f632d35b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_846ad3bf-b4c9-4646-b65b-3253f632d35b .
+
+km-dev:PredicateObjectMap_d46ba92a-c181-40f6-82a5-2c07f2692c4b rr:predicate memex:featureObject .
+
+km-dev:RefObjectMap_46eb1e50-b811-42b9-91f0-eb7ab515fdae a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap km-dev:RefObjectMap_46eb1e50-b811-42b9-91f0-eb7ab515fdae .
+
+km-dev:PredicateObjectMap_d46ba92a-c181-40f6-82a5-2c07f2692c4b rr:objectMap km-dev:RefObjectMap_46eb1e50-b811-42b9-91f0-eb7ab515fdae .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_d46ba92a-c181-40f6-82a5-2c07f2692c4b .
+
+km-dev:PredicateObjectMap_d46ba92a-c181-40f6-82a5-2c07f2692c4b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d46ba92a-c181-40f6-82a5-2c07f2692c4b .
+
+km-dev:PredicateObjectMap_e96130ab-912a-4ea8-a217-d450db1a9957 rr:predicate memex:featureValue .
+
+_:node19bfq240rx6 rr:column "[\"response\",\"docs\",\"author_clean\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx6 .
+
+km-dev:PredicateObjectMap_e96130ab-912a-4ea8-a217-d450db1a9957 rr:objectMap _:node19bfq240rx6 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_e96130ab-912a-4ea8-a217-d450db1a9957 .
+
+km-dev:PredicateObjectMap_e96130ab-912a-4ea8-a217-d450db1a9957 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e96130ab-912a-4ea8-a217-d450db1a9957 .
+
+km-dev:PredicateObjectMap_d5e33d32-5b53-4a91-a5b6-58f3b3bc5ab9 rr:predicate prov:wasGeneratedBy .
+
+km-dev:RefObjectMap_2297d985-18ea-43f3-8b00-aaf102afcf44 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap km-dev:RefObjectMap_2297d985-18ea-43f3-8b00-aaf102afcf44 .
+
+km-dev:PredicateObjectMap_d5e33d32-5b53-4a91-a5b6-58f3b3bc5ab9 rr:objectMap km-dev:RefObjectMap_2297d985-18ea-43f3-8b00-aaf102afcf44 .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_d5e33d32-5b53-4a91-a5b6-58f3b3bc5ab9 .
+
+km-dev:PredicateObjectMap_d5e33d32-5b53-4a91-a5b6-58f3b3bc5ab9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d5e33d32-5b53-4a91-a5b6-58f3b3bc5ab9 .
+
+km-dev:PredicateObjectMap_9142f9c2-cbc9-4084-b5e1-d3851941f275 rr:predicate prov:wasDerivedFrom .
+
+km-dev:RefObjectMap_dd415395-8b70-4f09-8eeb-99ef97f8f95b a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap km-dev:RefObjectMap_dd415395-8b70-4f09-8eeb-99ef97f8f95b .
+
+km-dev:PredicateObjectMap_9142f9c2-cbc9-4084-b5e1-d3851941f275 rr:objectMap km-dev:RefObjectMap_dd415395-8b70-4f09-8eeb-99ef97f8f95b .
+
+km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 rr:predicateObjectMap km-dev:PredicateObjectMap_9142f9c2-cbc9-4084-b5e1-d3851941f275 .
+
+km-dev:PredicateObjectMap_9142f9c2-cbc9-4084-b5e1-d3851941f275 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9142f9c2-cbc9-4084-b5e1-d3851941f275 .
+
+km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 a rr:TriplesMap .
+
+_:node19bfq240rx1 km-dev:hasTriplesMap km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 .
+
+km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx7 rr:tableName "jpl-solr-pdf.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasLogicalTable _:node19bfq240rx7 .
+
+km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 rr:logicalTable _:node19bfq240rx7 ;
+	rr:subjectMap _:node19bfq240rx8 .
+
+_:node19bfq240rx1 km-dev:hasSubjectMap _:node19bfq240rx8 .
+
+_:node19bfq240rx8 km-dev:isPartOfMapping _:node19bfq240rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://memexproxy.com/ontology/PersonName1" ;
+	rr:class memex:PersonName ;
+	rr:template "{[\"response\",\"docs\",\"person_uri\"]}" .
+
+km-dev:PredicateObjectMap_7447db5a-a5a1-4d66-881b-9f324009df4e rr:predicate memex:person_name .
+
+_:node19bfq240rx9 rr:column "[\"response\",\"docs\",\"author_clean\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx9 .
+
+km-dev:PredicateObjectMap_7447db5a-a5a1-4d66-881b-9f324009df4e rr:objectMap _:node19bfq240rx9 .
+
+km-dev:TriplesMap_e4ae392f-25ad-4bfd-8ee2-39f7f03c72a4 rr:predicateObjectMap km-dev:PredicateObjectMap_7447db5a-a5a1-4d66-881b-9f324009df4e .
+
+km-dev:PredicateObjectMap_7447db5a-a5a1-4d66-881b-9f324009df4e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7447db5a-a5a1-4d66-881b-9f324009df4e .
+
+km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 a rr:TriplesMap .
+
+_:node19bfq240rx1 km-dev:hasTriplesMap km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 .
+
+km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx10 rr:tableName "jpl-solr-pdf.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasLogicalTable _:node19bfq240rx10 .
+
+km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 rr:logicalTable _:node19bfq240rx10 ;
+	rr:subjectMap _:node19bfq240rx11 .
+
+_:node19bfq240rx1 km-dev:hasSubjectMap _:node19bfq240rx11 .
+
+_:node19bfq240rx11 km-dev:isPartOfMapping _:node19bfq240rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.w3.org/ns/prov#Activity1" ;
+	rr:class prov:Activity ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "prov:Activity1" .
+
+km-dev:PredicateObjectMap_413a1847-5582-499e-af21-0b3e137a53bb rr:predicate memex:databaseId .
+
+_:node19bfq240rx12 rr:column "[\"response\",\"docs\",\"id\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx12 .
+
+km-dev:PredicateObjectMap_413a1847-5582-499e-af21-0b3e137a53bb rr:objectMap _:node19bfq240rx12 .
+
+km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 rr:predicateObjectMap km-dev:PredicateObjectMap_413a1847-5582-499e-af21-0b3e137a53bb .
+
+km-dev:PredicateObjectMap_413a1847-5582-499e-af21-0b3e137a53bb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_413a1847-5582-499e-af21-0b3e137a53bb .
+
+km-dev:PredicateObjectMap_90e81e11-dd73-42e6-9b45-87b5ce58d70a rr:predicate prov:wasAttributedTo .
+
+_:node19bfq240rx13 rr:constant <http://memex.zapto.org/data/software/jpl/version/0.1> ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap _:node19bfq240rx13 .
+
+km-dev:PredicateObjectMap_90e81e11-dd73-42e6-9b45-87b5ce58d70a rr:objectMap _:node19bfq240rx13 .
+
+km-dev:TriplesMap_8a9ec770-370c-4f58-972a-fa8cde2ecf96 rr:predicateObjectMap km-dev:PredicateObjectMap_90e81e11-dd73-42e6-9b45-87b5ce58d70a .
+
+km-dev:PredicateObjectMap_90e81e11-dd73-42e6-9b45-87b5ce58d70a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_90e81e11-dd73-42e6-9b45-87b5ce58d70a .
+
+km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 a rr:TriplesMap .
+
+_:node19bfq240rx1 km-dev:hasTriplesMap km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 .
+
+km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx14 rr:tableName "jpl-solr-pdf.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasLogicalTable _:node19bfq240rx14 .
+
+km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 rr:logicalTable _:node19bfq240rx14 ;
+	rr:subjectMap _:node19bfq240rx15 .
+
+_:node19bfq240rx1 km-dev:hasSubjectMap _:node19bfq240rx15 .
+
+_:node19bfq240rx15 km-dev:isPartOfMapping _:node19bfq240rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://memexproxy.com/ontology/FeatureCollection1" ;
+	rr:class memex:FeatureCollection ;
+	rr:template "{[\"response\",\"docs\",\"uri\"]}/featurecollection" .
+
+km-dev:PredicateObjectMap_5c03aab8-90c0-40ae-91ee-e988e06f442f rr:predicate memex:author_feature .
+
+km-dev:RefObjectMap_6e22bcd2-f087-452a-ae8e-bb6c0dbd4555 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8740f421-a8ef-44bb-911e-ca9efaa51109 ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap km-dev:RefObjectMap_6e22bcd2-f087-452a-ae8e-bb6c0dbd4555 .
+
+km-dev:PredicateObjectMap_5c03aab8-90c0-40ae-91ee-e988e06f442f rr:objectMap km-dev:RefObjectMap_6e22bcd2-f087-452a-ae8e-bb6c0dbd4555 .
+
+km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 rr:predicateObjectMap km-dev:PredicateObjectMap_5c03aab8-90c0-40ae-91ee-e988e06f442f .
+
+km-dev:PredicateObjectMap_5c03aab8-90c0-40ae-91ee-e988e06f442f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5c03aab8-90c0-40ae-91ee-e988e06f442f .
+
+km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 a rr:TriplesMap .
+
+_:node19bfq240rx1 km-dev:hasTriplesMap km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 .
+
+km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx16 rr:tableName "jpl-solr-pdf.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasLogicalTable _:node19bfq240rx16 .
+
+km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 rr:logicalTable _:node19bfq240rx16 ;
+	rr:subjectMap _:node19bfq240rx17 .
+
+_:node19bfq240rx1 km-dev:hasSubjectMap _:node19bfq240rx17 .
+
+_:node19bfq240rx17 km-dev:isPartOfMapping _:node19bfq240rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://schema.org/WebPage1" ;
+	rr:class schema:WebPage ;
+	rr:template "{[\"response\",\"docs\",\"uri\"]}" .
+
+km-dev:PredicateObjectMap_91a37c9e-fe38-4319-8d25-c2dc33ffe0a0 rr:predicate memex:hasFeatureCollection .
+
+km-dev:RefObjectMap_12c1863a-236c-4337-8269-e052f12b1886 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f26a19d6-eb6d-4890-a086-0a30f07f1eb0 ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasObjectMap km-dev:RefObjectMap_12c1863a-236c-4337-8269-e052f12b1886 .
+
+km-dev:PredicateObjectMap_91a37c9e-fe38-4319-8d25-c2dc33ffe0a0 rr:objectMap km-dev:RefObjectMap_12c1863a-236c-4337-8269-e052f12b1886 .
+
+km-dev:TriplesMap_f80ffdcc-1010-4324-8415-4dfecadf3564 rr:predicateObjectMap km-dev:PredicateObjectMap_91a37c9e-fe38-4319-8d25-c2dc33ffe0a0 .
+
+km-dev:PredicateObjectMap_91a37c9e-fe38-4319-8d25-c2dc33ffe0a0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node19bfq240rx1 .
+
+_:node19bfq240rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_91a37c9e-fe38-4319-8d25-c2dc33ffe0a0 .

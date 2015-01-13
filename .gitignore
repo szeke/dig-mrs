@@ -6,6 +6,7 @@ karma/JSON
 karma/UserPrefs
 karma/preloaded-ontologies/commented-out
 karma.zip
+karma/python/.idea
 
 karma/alignment-graph
 karma/models-autosave
@@ -23,3 +24,10 @@ datasets/*/x-*.*
 *.n3
 *.sublime-workspace
 *~
+datasets/mrs-scrape/mrs-data.seq
+
+*.seq
+
+*.crc
+
+datasets/jpl/model-contenttype/jpl-contenttype-jsonld.json
