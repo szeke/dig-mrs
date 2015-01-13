@@ -39,7 +39,6 @@ return content_type_uri(getValue("content_type_clean"))
 | _content_type_clean2_ | `memex:content_type` | `memex:Feature1`|
 | _content_type_uri_ | `uri` | `memex:Feature1`|
 | _featurecollection_uri_ | `uri` | `memex:FeatureCollection1`|
-| _id_ | `memex:databaseId` | `prov:Activity1`|
 | _uri_ | `uri` | `schema:WebPage1`|
 
 
@@ -47,7 +46,6 @@ return content_type_uri(getValue("content_type_clean"))
 | From | Property | To |
 |  --- | -------- | ---|
 | `memex:Feature1` | `prov:wasGeneratedBy` | `prov:Activity1`|
-| `memex:Feature1` | `prov:wasDerivedFrom` | `schema:WebPage1`|
 | `memex:FeatureCollection1` | `memex:content_type_feature` | `memex:Feature1`|
 | `prov:Activity1` | `prov:wasAttributedTo` | `xsd:http://memex.zapto.org/data/software/jpl/version/0.1`|
 | `schema:WebPage1` | `memex:hasFeatureCollection` | `memex:FeatureCollection1`|
