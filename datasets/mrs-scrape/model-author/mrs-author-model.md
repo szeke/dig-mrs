@@ -1,4 +1,4 @@
-## msr-data-sample.json
+## mrs-data-sample.json
 
 ### PyTransforms
 #### _uri_
@@ -28,7 +28,10 @@ return getValue("author_clean")
 #### _author_uri_
 From column: _authors / author_clean2_
 >``` python
-return author_uri(getValue("author_clean"))
+uri = author_uri(getValue("author_clean"))
+if uri:
+  return getValue("featurecollection_uri") + "/" + uri
+return ''
 ```
 
 #### _author_clean3_
