@@ -22,7 +22,10 @@ return getValue("author_clean")
 #### _author_uri_
 From column: _response / docs / author_clean2_
 >``` python
-return author_uri(getValue("author_clean"))
+uri= author_uri(getValue("author_clean"))
+if uri:
+   return getValue("featurecollection_uri") + "/" + uri
+return ''
 ```
 
 #### _author_clean3_

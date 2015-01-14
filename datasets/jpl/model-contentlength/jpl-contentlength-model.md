@@ -28,7 +28,10 @@ return getValue("content_length_clean")
 #### _content_length_uri_
 From column: _response / docs / content_length_clean2_
 >``` python
-return content_length_uri(getValue("content_length_clean"))
+uri = content_length_uri(getValue("content_length_clean"))
+if uri:
+  return getValue("featurecollection_uri") + "/" + uri
+return ''
 ```
 
 

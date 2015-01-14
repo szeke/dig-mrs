@@ -31,18 +31,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/638A6AF22F2EACD155A62DAC587ECE584A71526E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9E6BE4145C33E1FABFE1FF3F83DDC4D4DFFF4BC9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/638A6AF22F2EACD155A62DAC587ECE584A71526E/processed"
+    "uri": "http://memex.zapto.org/data/page/9E6BE4145C33E1FABFE1FF3F83DDC4D4DFFF4BC9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9E6BE4145C33E1FABFE1FF3F83DDC4D4DFFF4BC9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/638A6AF22F2EACD155A62DAC587ECE584A71526E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9E6BE4145C33E1FABFE1FF3F83DDC4D4DFFF4BC9/processed"
+    "uri": "http://memex.zapto.org/data/page/638A6AF22F2EACD155A62DAC587ECE584A71526E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -319,6 +319,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/3AA7B557CB0B67B17B109272A33A761CF3F1427D/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/3AA7B557CB0B67B17B109272A33A761CF3F1427D/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/4DB0D9A561DC0E0B28FB6C88A9319942DA8F7CFF/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/4DB0D9A561DC0E0B28FB6C88A9319942DA8F7CFF/processed"
@@ -331,15 +340,6 @@
         "uri": "http://memex.zapto.org/data/page/BDA358F0FAE7D30A396922F9A229CED26E723440/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/BDA358F0FAE7D30A396922F9A229CED26E723440/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3AA7B557CB0B67B17B109272A33A761CF3F1427D/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/3AA7B557CB0B67B17B109272A33A761CF3F1427D/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -454,15 +454,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/047BA1654578FDD33721752EA61BF24154EFA845/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/047BA1654578FDD33721752EA61BF24154EFA845/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/70DF92DB02BB3C4A57B603CD17FCEDF6EDEAEDAA/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/70DF92DB02BB3C4A57B603CD17FCEDF6EDEAEDAA/processed"
@@ -484,6 +475,15 @@
         "uri": "http://memex.zapto.org/data/page/106A9300A06A5E465092C96E59A2E1A00D9A946E/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/106A9300A06A5E465092C96E59A2E1A00D9A946E/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/047BA1654578FDD33721752EA61BF24154EFA845/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/047BA1654578FDD33721752EA61BF24154EFA845/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -580,18 +580,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6EBF69654EF287E60D413BB19B5DF12949BC4727/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B8A9A0F28691A89A652C336120FF5B6945201437/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6EBF69654EF287E60D413BB19B5DF12949BC4727/processed"
+    "uri": "http://memex.zapto.org/data/page/B8A9A0F28691A89A652C336120FF5B6945201437/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B8A9A0F28691A89A652C336120FF5B6945201437/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6EBF69654EF287E60D413BB19B5DF12949BC4727/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B8A9A0F28691A89A652C336120FF5B6945201437/processed"
+    "uri": "http://memex.zapto.org/data/page/6EBF69654EF287E60D413BB19B5DF12949BC4727/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -688,18 +688,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1530BBE1B7DDE76BDB22E0ABE57FE20393CCD038/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/16DECCFC3D75732D3B83CCAA76AA3B412851A07C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1530BBE1B7DDE76BDB22E0ABE57FE20393CCD038/processed"
+    "uri": "http://memex.zapto.org/data/page/16DECCFC3D75732D3B83CCAA76AA3B412851A07C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/16DECCFC3D75732D3B83CCAA76AA3B412851A07C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1530BBE1B7DDE76BDB22E0ABE57FE20393CCD038/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/16DECCFC3D75732D3B83CCAA76AA3B412851A07C/processed"
+    "uri": "http://memex.zapto.org/data/page/1530BBE1B7DDE76BDB22E0ABE57FE20393CCD038/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -742,15 +742,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/66C44F6AEDBEFBBD23001E99A564A462D5661C10/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/66C44F6AEDBEFBBD23001E99A564A462D5661C10/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/CBB505FF8DC16D62926D96EFCE630FD4DDCC77F2/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/CBB505FF8DC16D62926D96EFCE630FD4DDCC77F2/processed"
@@ -760,9 +751,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1E32B30BC101C8878DBD53CF3463556624BD83BA/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/66C44F6AEDBEFBBD23001E99A564A462D5661C10/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1E32B30BC101C8878DBD53CF3463556624BD83BA/processed"
+    "uri": "http://memex.zapto.org/data/page/66C44F6AEDBEFBBD23001E99A564A462D5661C10/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -772,6 +763,15 @@
         "uri": "http://memex.zapto.org/data/page/BD72778E56CAEF037627B630B8D3CA46AA28B770/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/BD72778E56CAEF037627B630B8D3CA46AA28B770/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/1E32B30BC101C8878DBD53CF3463556624BD83BA/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/1E32B30BC101C8878DBD53CF3463556624BD83BA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -832,15 +832,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8B74EA6A1CF4C7551DD4228ACEF16F392888A436/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/8B74EA6A1CF4C7551DD4228ACEF16F392888A436/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/2F7292FCEA6996FBB207EFAD0F417529ACDEBA3B/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/2F7292FCEA6996FBB207EFAD0F417529ACDEBA3B/processed"
@@ -850,18 +841,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3C30BB5D1F416C3E3A59C3050E8A3E6CF86DDE72/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8B74EA6A1CF4C7551DD4228ACEF16F392888A436/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3C30BB5D1F416C3E3A59C3050E8A3E6CF86DDE72/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/56175526D3EF9B05D21722FA900F516CAA19EF5B/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/56175526D3EF9B05D21722FA900F516CAA19EF5B/processed"
+    "uri": "http://memex.zapto.org/data/page/8B74EA6A1CF4C7551DD4228ACEF16F392888A436/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -877,9 +859,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1E05EC35509FA4A682FF9C22E2B6C52AD289D508/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/56175526D3EF9B05D21722FA900F516CAA19EF5B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1E05EC35509FA4A682FF9C22E2B6C52AD289D508/processed"
+    "uri": "http://memex.zapto.org/data/page/56175526D3EF9B05D21722FA900F516CAA19EF5B/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/3C30BB5D1F416C3E3A59C3050E8A3E6CF86DDE72/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/3C30BB5D1F416C3E3A59C3050E8A3E6CF86DDE72/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -889,6 +880,15 @@
         "uri": "http://memex.zapto.org/data/page/6AE3A4DAD2207E6520A22C7FFD6FD6C0A3BA5213/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/6AE3A4DAD2207E6520A22C7FFD6FD6C0A3BA5213/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/1E05EC35509FA4A682FF9C22E2B6C52AD289D508/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/1E05EC35509FA4A682FF9C22E2B6C52AD289D508/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -931,18 +931,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/883DBDF4678ED8664F5256A87DC9CCE7F8814D99/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/05C31692280764415E067BE09E1B08D50BF347D8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/883DBDF4678ED8664F5256A87DC9CCE7F8814D99/processed"
+    "uri": "http://memex.zapto.org/data/page/05C31692280764415E067BE09E1B08D50BF347D8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/05C31692280764415E067BE09E1B08D50BF347D8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/883DBDF4678ED8664F5256A87DC9CCE7F8814D99/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/05C31692280764415E067BE09E1B08D50BF347D8/processed"
+    "uri": "http://memex.zapto.org/data/page/883DBDF4678ED8664F5256A87DC9CCE7F8814D99/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -994,18 +994,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D31EB4390408164AF449189B86DB0AEA837C1970/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/4C5D2646E22FDFAD0D1057AF55BD053FA79CCEE0/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D31EB4390408164AF449189B86DB0AEA837C1970/processed"
+    "uri": "http://memex.zapto.org/data/page/4C5D2646E22FDFAD0D1057AF55BD053FA79CCEE0/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/4C5D2646E22FDFAD0D1057AF55BD053FA79CCEE0/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D31EB4390408164AF449189B86DB0AEA837C1970/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/4C5D2646E22FDFAD0D1057AF55BD053FA79CCEE0/processed"
+    "uri": "http://memex.zapto.org/data/page/D31EB4390408164AF449189B86DB0AEA837C1970/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1102,18 +1102,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/90F214034C3FD81C4123D57D96F61503BD6F8909/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/286BD765F1583FB9AB797570F1793306A22F1934/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/90F214034C3FD81C4123D57D96F61503BD6F8909/processed"
+    "uri": "http://memex.zapto.org/data/page/286BD765F1583FB9AB797570F1793306A22F1934/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/286BD765F1583FB9AB797570F1793306A22F1934/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/90F214034C3FD81C4123D57D96F61503BD6F8909/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/286BD765F1583FB9AB797570F1793306A22F1934/processed"
+    "uri": "http://memex.zapto.org/data/page/90F214034C3FD81C4123D57D96F61503BD6F8909/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1174,18 +1174,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0F4B3A245FF6EAB3882DF28879856D9431194821/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F5BBF26D830BBB12CAF4BDB7225DD923256BB1D8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/0F4B3A245FF6EAB3882DF28879856D9431194821/processed"
+    "uri": "http://memex.zapto.org/data/page/F5BBF26D830BBB12CAF4BDB7225DD923256BB1D8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F5BBF26D830BBB12CAF4BDB7225DD923256BB1D8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0F4B3A245FF6EAB3882DF28879856D9431194821/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F5BBF26D830BBB12CAF4BDB7225DD923256BB1D8/processed"
+    "uri": "http://memex.zapto.org/data/page/0F4B3A245FF6EAB3882DF28879856D9431194821/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1255,18 +1255,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/066552F8FD622490F2CAABE0909E56AC3B5438AE/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/5043354DD02B4CDDD9C71ECB44CD70992EF3E7A8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/066552F8FD622490F2CAABE0909E56AC3B5438AE/processed"
+    "uri": "http://memex.zapto.org/data/page/5043354DD02B4CDDD9C71ECB44CD70992EF3E7A8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5043354DD02B4CDDD9C71ECB44CD70992EF3E7A8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/066552F8FD622490F2CAABE0909E56AC3B5438AE/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/5043354DD02B4CDDD9C71ECB44CD70992EF3E7A8/processed"
+    "uri": "http://memex.zapto.org/data/page/066552F8FD622490F2CAABE0909E56AC3B5438AE/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1291,18 +1291,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2129AD52085EED616B61064BC30D09B9454C664E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/CEF44FA179704212C16165BE9D73AF4D7E4DB76D/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2129AD52085EED616B61064BC30D09B9454C664E/processed"
+    "uri": "http://memex.zapto.org/data/page/CEF44FA179704212C16165BE9D73AF4D7E4DB76D/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CEF44FA179704212C16165BE9D73AF4D7E4DB76D/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2129AD52085EED616B61064BC30D09B9454C664E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/CEF44FA179704212C16165BE9D73AF4D7E4DB76D/processed"
+    "uri": "http://memex.zapto.org/data/page/2129AD52085EED616B61064BC30D09B9454C664E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1336,18 +1336,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6A7CD357D57628F655E30BF996FA93C1660B71C0/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F79835A141460F61A73F023310CD865BDEEB984E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6A7CD357D57628F655E30BF996FA93C1660B71C0/processed"
+    "uri": "http://memex.zapto.org/data/page/F79835A141460F61A73F023310CD865BDEEB984E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F79835A141460F61A73F023310CD865BDEEB984E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6A7CD357D57628F655E30BF996FA93C1660B71C0/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F79835A141460F61A73F023310CD865BDEEB984E/processed"
+    "uri": "http://memex.zapto.org/data/page/6A7CD357D57628F655E30BF996FA93C1660B71C0/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1399,15 +1399,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2DBA3E8E7A05C214B09778F977D1D9D70D4161A5/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/2DBA3E8E7A05C214B09778F977D1D9D70D4161A5/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/A63815C6AD8FD480FB44CB7F17B30543AAF377C7/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/A63815C6AD8FD480FB44CB7F17B30543AAF377C7/processed"
@@ -1417,9 +1408,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B68653D743B42A2193BCD93F6514F5AE73982F21/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2DBA3E8E7A05C214B09778F977D1D9D70D4161A5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B68653D743B42A2193BCD93F6514F5AE73982F21/processed"
+    "uri": "http://memex.zapto.org/data/page/2DBA3E8E7A05C214B09778F977D1D9D70D4161A5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1429,6 +1420,15 @@
         "uri": "http://memex.zapto.org/data/page/1E1DAA195E4F38B49FBCA2F121E8017572BFD74B/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/1E1DAA195E4F38B49FBCA2F121E8017572BFD74B/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/B68653D743B42A2193BCD93F6514F5AE73982F21/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/B68653D743B42A2193BCD93F6514F5AE73982F21/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1534,18 +1534,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/948DDA37B9E4B1B63C426978BB25D74758B6A6F8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/984627A79EC97996F7FD093A9E5AD9E4D4183691/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/948DDA37B9E4B1B63C426978BB25D74758B6A6F8/processed"
+    "uri": "http://memex.zapto.org/data/page/984627A79EC97996F7FD093A9E5AD9E4D4183691/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/984627A79EC97996F7FD093A9E5AD9E4D4183691/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/948DDA37B9E4B1B63C426978BB25D74758B6A6F8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/984627A79EC97996F7FD093A9E5AD9E4D4183691/processed"
+    "uri": "http://memex.zapto.org/data/page/948DDA37B9E4B1B63C426978BB25D74758B6A6F8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1561,18 +1561,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/70E14232B9FE6743F96394725F1DDC3C2B69A44C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/EB8F44320325B917C17F2A818C923213179CCABF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/70E14232B9FE6743F96394725F1DDC3C2B69A44C/processed"
+    "uri": "http://memex.zapto.org/data/page/EB8F44320325B917C17F2A818C923213179CCABF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/EB8F44320325B917C17F2A818C923213179CCABF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/70E14232B9FE6743F96394725F1DDC3C2B69A44C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/EB8F44320325B917C17F2A818C923213179CCABF/processed"
+    "uri": "http://memex.zapto.org/data/page/70E14232B9FE6743F96394725F1DDC3C2B69A44C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1687,18 +1687,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/EAE8E617604D3C2431C333A049A6D5A469A3FC52/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A981A1D674E0C4809F33E4CFD7ACBA03B5B3B63A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/EAE8E617604D3C2431C333A049A6D5A469A3FC52/processed"
+    "uri": "http://memex.zapto.org/data/page/A981A1D674E0C4809F33E4CFD7ACBA03B5B3B63A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A981A1D674E0C4809F33E4CFD7ACBA03B5B3B63A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/EAE8E617604D3C2431C333A049A6D5A469A3FC52/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A981A1D674E0C4809F33E4CFD7ACBA03B5B3B63A/processed"
+    "uri": "http://memex.zapto.org/data/page/EAE8E617604D3C2431C333A049A6D5A469A3FC52/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1732,18 +1732,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8497D9E6D30C691DC938BF880A99246BB1C788E6/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A872918AB1539F04D4AAA1B8E887764F198AF27E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8497D9E6D30C691DC938BF880A99246BB1C788E6/processed"
+    "uri": "http://memex.zapto.org/data/page/A872918AB1539F04D4AAA1B8E887764F198AF27E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A872918AB1539F04D4AAA1B8E887764F198AF27E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8497D9E6D30C691DC938BF880A99246BB1C788E6/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A872918AB1539F04D4AAA1B8E887764F198AF27E/processed"
+    "uri": "http://memex.zapto.org/data/page/8497D9E6D30C691DC938BF880A99246BB1C788E6/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1822,9 +1822,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6F45F2C7D459BCEFCA32316FA8C9401D1E45F762/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/83B3E5D243AB241989CD4EC04E5FD7DAB96AF537/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6F45F2C7D459BCEFCA32316FA8C9401D1E45F762/processed"
+    "uri": "http://memex.zapto.org/data/page/83B3E5D243AB241989CD4EC04E5FD7DAB96AF537/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1849,18 +1849,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/83B3E5D243AB241989CD4EC04E5FD7DAB96AF537/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6F45F2C7D459BCEFCA32316FA8C9401D1E45F762/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/83B3E5D243AB241989CD4EC04E5FD7DAB96AF537/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A7C09749DDC92F9FC25E151E986B0AE9441B9CAA/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/A7C09749DDC92F9FC25E151E986B0AE9441B9CAA/processed"
+    "uri": "http://memex.zapto.org/data/page/6F45F2C7D459BCEFCA32316FA8C9401D1E45F762/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1870,6 +1861,15 @@
         "uri": "http://memex.zapto.org/data/page/3054EDE8EA1B9327B8972B94F0DD932F4A9DC627/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/3054EDE8EA1B9327B8972B94F0DD932F4A9DC627/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/A7C09749DDC92F9FC25E151E986B0AE9441B9CAA/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/A7C09749DDC92F9FC25E151E986B0AE9441B9CAA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1912,15 +1912,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2CF8D17C3EC0118279D87D7FA617C67B3408E8DF/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/2CF8D17C3EC0118279D87D7FA617C67B3408E8DF/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/F0C5FFB101AA6A9C71783BC14C9ED8B1B056F058/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/F0C5FFB101AA6A9C71783BC14C9ED8B1B056F058/processed"
@@ -1948,9 +1939,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3776D00FCB76553B8E00375E518DE22FB61F6B21/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2CF8D17C3EC0118279D87D7FA617C67B3408E8DF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3776D00FCB76553B8E00375E518DE22FB61F6B21/processed"
+    "uri": "http://memex.zapto.org/data/page/2CF8D17C3EC0118279D87D7FA617C67B3408E8DF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -1960,6 +1951,15 @@
         "uri": "http://memex.zapto.org/data/page/B55CE1EDE0A4A28F86B7F89B82C44C5137F9B527/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/B55CE1EDE0A4A28F86B7F89B82C44C5137F9B527/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/3776D00FCB76553B8E00375E518DE22FB61F6B21/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/3776D00FCB76553B8E00375E518DE22FB61F6B21/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2020,18 +2020,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5D4711B761C39B9A318775C219C6A6D156C2D4A7/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/10326570A7FFB4812F99476EE5487EFE09A0A213/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/5D4711B761C39B9A318775C219C6A6D156C2D4A7/processed"
+    "uri": "http://memex.zapto.org/data/page/10326570A7FFB4812F99476EE5487EFE09A0A213/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/10326570A7FFB4812F99476EE5487EFE09A0A213/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/5D4711B761C39B9A318775C219C6A6D156C2D4A7/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/10326570A7FFB4812F99476EE5487EFE09A0A213/processed"
+    "uri": "http://memex.zapto.org/data/page/5D4711B761C39B9A318775C219C6A6D156C2D4A7/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2047,18 +2047,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B0860FBA3119384F2D1CDB29096F36DFF7AEB297/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/47A872485D01A6D8AEF89365642B479A2C9F7380/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B0860FBA3119384F2D1CDB29096F36DFF7AEB297/processed"
+    "uri": "http://memex.zapto.org/data/page/47A872485D01A6D8AEF89365642B479A2C9F7380/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/47A872485D01A6D8AEF89365642B479A2C9F7380/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B0860FBA3119384F2D1CDB29096F36DFF7AEB297/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/47A872485D01A6D8AEF89365642B479A2C9F7380/processed"
+    "uri": "http://memex.zapto.org/data/page/B0860FBA3119384F2D1CDB29096F36DFF7AEB297/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2083,9 +2083,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F48A080847A62A0D944F101E43945EC5F6998968/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/FF396CDAF382B9B1A3D564A77647EF5730B9B55F/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F48A080847A62A0D944F101E43945EC5F6998968/processed"
+    "uri": "http://memex.zapto.org/data/page/FF396CDAF382B9B1A3D564A77647EF5730B9B55F/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2101,9 +2101,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/FF396CDAF382B9B1A3D564A77647EF5730B9B55F/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F48A080847A62A0D944F101E43945EC5F6998968/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/FF396CDAF382B9B1A3D564A77647EF5730B9B55F/processed"
+    "uri": "http://memex.zapto.org/data/page/F48A080847A62A0D944F101E43945EC5F6998968/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2119,18 +2119,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B286619CF4C66401E0175DDD4CCC0038550AC3AF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F86908861F315093C6A096903A6401D92ACF5C42/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B286619CF4C66401E0175DDD4CCC0038550AC3AF/processed"
+    "uri": "http://memex.zapto.org/data/page/F86908861F315093C6A096903A6401D92ACF5C42/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F86908861F315093C6A096903A6401D92ACF5C42/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B286619CF4C66401E0175DDD4CCC0038550AC3AF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F86908861F315093C6A096903A6401D92ACF5C42/processed"
+    "uri": "http://memex.zapto.org/data/page/B286619CF4C66401E0175DDD4CCC0038550AC3AF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2146,18 +2146,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/14B9EC0285382ABDB8531877F0490CC8E096984F/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B1E7519566727F1E8F5A445448C5392497A017A9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/14B9EC0285382ABDB8531877F0490CC8E096984F/processed"
+    "uri": "http://memex.zapto.org/data/page/B1E7519566727F1E8F5A445448C5392497A017A9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B1E7519566727F1E8F5A445448C5392497A017A9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/14B9EC0285382ABDB8531877F0490CC8E096984F/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B1E7519566727F1E8F5A445448C5392497A017A9/processed"
+    "uri": "http://memex.zapto.org/data/page/14B9EC0285382ABDB8531877F0490CC8E096984F/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2317,15 +2317,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/83384A7DD1D6F1ED923088C6F8D139A54EA3C138/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/83384A7DD1D6F1ED923088C6F8D139A54EA3C138/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/5F45D949C1307BE60A8C0C0ACD743DB2BCE57904/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/5F45D949C1307BE60A8C0C0ACD743DB2BCE57904/processed"
@@ -2335,9 +2326,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D1ABBB2643C50AFD85BD33EE65C21ED148B1AF40/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/83384A7DD1D6F1ED923088C6F8D139A54EA3C138/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D1ABBB2643C50AFD85BD33EE65C21ED148B1AF40/processed"
+    "uri": "http://memex.zapto.org/data/page/83384A7DD1D6F1ED923088C6F8D139A54EA3C138/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2347,6 +2338,15 @@
         "uri": "http://memex.zapto.org/data/page/2F05295500F3F3853D85F6C9695E11DD621C4C17/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/2F05295500F3F3853D85F6C9695E11DD621C4C17/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/D1ABBB2643C50AFD85BD33EE65C21ED148B1AF40/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/D1ABBB2643C50AFD85BD33EE65C21ED148B1AF40/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2416,15 +2416,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1BE27E107EE889CC09FC4F6120B2E517BE7CE234/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/1BE27E107EE889CC09FC4F6120B2E517BE7CE234/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/83DEFAE035ECEFCB3C1F568505D5665514CA8687/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/83DEFAE035ECEFCB3C1F568505D5665514CA8687/processed"
@@ -2434,9 +2425,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/04B8132337D93E497E60C7562F547E6C2B558F90/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1BE27E107EE889CC09FC4F6120B2E517BE7CE234/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/04B8132337D93E497E60C7562F547E6C2B558F90/processed"
+    "uri": "http://memex.zapto.org/data/page/1BE27E107EE889CC09FC4F6120B2E517BE7CE234/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2446,6 +2437,15 @@
         "uri": "http://memex.zapto.org/data/page/AB3483F4D72B46146188E5118692AC8EF2FCBBF7/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/AB3483F4D72B46146188E5118692AC8EF2FCBBF7/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/04B8132337D93E497E60C7562F547E6C2B558F90/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/04B8132337D93E497E60C7562F547E6C2B558F90/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2551,18 +2551,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/21E3D156D607D5296AB1AF682260DD5A729160F5/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/36EE7B9DBBC2AF8A981D89E1C158F3F91969EC7C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/21E3D156D607D5296AB1AF682260DD5A729160F5/processed"
+    "uri": "http://memex.zapto.org/data/page/36EE7B9DBBC2AF8A981D89E1C158F3F91969EC7C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/36EE7B9DBBC2AF8A981D89E1C158F3F91969EC7C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/21E3D156D607D5296AB1AF682260DD5A729160F5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/36EE7B9DBBC2AF8A981D89E1C158F3F91969EC7C/processed"
+    "uri": "http://memex.zapto.org/data/page/21E3D156D607D5296AB1AF682260DD5A729160F5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2659,18 +2659,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2817FF0B86F229C91A7875E2523F71DE2B5746AC/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/08BB903E3F2DBE315F5D6EA6DF49AC7B4AFC008E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2817FF0B86F229C91A7875E2523F71DE2B5746AC/processed"
+    "uri": "http://memex.zapto.org/data/page/08BB903E3F2DBE315F5D6EA6DF49AC7B4AFC008E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/08BB903E3F2DBE315F5D6EA6DF49AC7B4AFC008E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2817FF0B86F229C91A7875E2523F71DE2B5746AC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/08BB903E3F2DBE315F5D6EA6DF49AC7B4AFC008E/processed"
+    "uri": "http://memex.zapto.org/data/page/2817FF0B86F229C91A7875E2523F71DE2B5746AC/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2758,18 +2758,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E70CAF50D4FED324C87037049AD3B429B5A1997A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9B595DC124856004AD3F5D38ED847F13023F8888/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E70CAF50D4FED324C87037049AD3B429B5A1997A/processed"
+    "uri": "http://memex.zapto.org/data/page/9B595DC124856004AD3F5D38ED847F13023F8888/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9B595DC124856004AD3F5D38ED847F13023F8888/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E70CAF50D4FED324C87037049AD3B429B5A1997A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9B595DC124856004AD3F5D38ED847F13023F8888/processed"
+    "uri": "http://memex.zapto.org/data/page/E70CAF50D4FED324C87037049AD3B429B5A1997A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2866,18 +2866,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1A774A881F53E3A395AF718C105C784EB7C22273/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/832F1EB2FCD03CC84F20A87FA0C24A5CECB97A1E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1A774A881F53E3A395AF718C105C784EB7C22273/processed"
+    "uri": "http://memex.zapto.org/data/page/832F1EB2FCD03CC84F20A87FA0C24A5CECB97A1E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/832F1EB2FCD03CC84F20A87FA0C24A5CECB97A1E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1A774A881F53E3A395AF718C105C784EB7C22273/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/832F1EB2FCD03CC84F20A87FA0C24A5CECB97A1E/processed"
+    "uri": "http://memex.zapto.org/data/page/1A774A881F53E3A395AF718C105C784EB7C22273/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -2920,18 +2920,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9E7D71245EE9002158517321D48D4D68C1A1F352/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/AFF2B830F0AA4072545DA65810AE3CD0B3F71408/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9E7D71245EE9002158517321D48D4D68C1A1F352/processed"
+    "uri": "http://memex.zapto.org/data/page/AFF2B830F0AA4072545DA65810AE3CD0B3F71408/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/AFF2B830F0AA4072545DA65810AE3CD0B3F71408/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9E7D71245EE9002158517321D48D4D68C1A1F352/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/AFF2B830F0AA4072545DA65810AE3CD0B3F71408/processed"
+    "uri": "http://memex.zapto.org/data/page/9E7D71245EE9002158517321D48D4D68C1A1F352/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3244,18 +3244,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E4C44A7CA74B0ADDE342695B37BFC76CA0060B79/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6F99AE07AD8FF9A1243CF88E49B1723EC3A05B78/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E4C44A7CA74B0ADDE342695B37BFC76CA0060B79/processed"
+    "uri": "http://memex.zapto.org/data/page/6F99AE07AD8FF9A1243CF88E49B1723EC3A05B78/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6F99AE07AD8FF9A1243CF88E49B1723EC3A05B78/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E4C44A7CA74B0ADDE342695B37BFC76CA0060B79/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6F99AE07AD8FF9A1243CF88E49B1723EC3A05B78/processed"
+    "uri": "http://memex.zapto.org/data/page/E4C44A7CA74B0ADDE342695B37BFC76CA0060B79/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3334,18 +3334,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6E3462491FFEA5ACB674E49EFD8747ABC4C5D19C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/EB34FA82DF630584BE0FB0C32B06110B9E1C0FEF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6E3462491FFEA5ACB674E49EFD8747ABC4C5D19C/processed"
+    "uri": "http://memex.zapto.org/data/page/EB34FA82DF630584BE0FB0C32B06110B9E1C0FEF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/EB34FA82DF630584BE0FB0C32B06110B9E1C0FEF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6E3462491FFEA5ACB674E49EFD8747ABC4C5D19C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/EB34FA82DF630584BE0FB0C32B06110B9E1C0FEF/processed"
+    "uri": "http://memex.zapto.org/data/page/6E3462491FFEA5ACB674E49EFD8747ABC4C5D19C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3424,18 +3424,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/34DE907C9EFD0052A93B2C3B313FFDE894CB6DF2/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/83958E88F9B40EE2ACC571F3CFF85B69405E8BA7/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/34DE907C9EFD0052A93B2C3B313FFDE894CB6DF2/processed"
+    "uri": "http://memex.zapto.org/data/page/83958E88F9B40EE2ACC571F3CFF85B69405E8BA7/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/83958E88F9B40EE2ACC571F3CFF85B69405E8BA7/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/34DE907C9EFD0052A93B2C3B313FFDE894CB6DF2/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/83958E88F9B40EE2ACC571F3CFF85B69405E8BA7/processed"
+    "uri": "http://memex.zapto.org/data/page/34DE907C9EFD0052A93B2C3B313FFDE894CB6DF2/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3676,18 +3676,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6C6EB3CF8C67725C8BA914CAFB9A3C9E03C5DF01/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/50AC0E5A1F960A55DCB3D158ACBF5E541F9DD562/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6C6EB3CF8C67725C8BA914CAFB9A3C9E03C5DF01/processed"
+    "uri": "http://memex.zapto.org/data/page/50AC0E5A1F960A55DCB3D158ACBF5E541F9DD562/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/50AC0E5A1F960A55DCB3D158ACBF5E541F9DD562/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6C6EB3CF8C67725C8BA914CAFB9A3C9E03C5DF01/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/50AC0E5A1F960A55DCB3D158ACBF5E541F9DD562/processed"
+    "uri": "http://memex.zapto.org/data/page/6C6EB3CF8C67725C8BA914CAFB9A3C9E03C5DF01/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3748,18 +3748,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/76060CAD9479D5C14E87601EF346D3F81F7DD563/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8B43641033FFAB6A47EE8FA3EF5EEBB582719237/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/76060CAD9479D5C14E87601EF346D3F81F7DD563/processed"
+    "uri": "http://memex.zapto.org/data/page/8B43641033FFAB6A47EE8FA3EF5EEBB582719237/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8B43641033FFAB6A47EE8FA3EF5EEBB582719237/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/76060CAD9479D5C14E87601EF346D3F81F7DD563/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8B43641033FFAB6A47EE8FA3EF5EEBB582719237/processed"
+    "uri": "http://memex.zapto.org/data/page/76060CAD9479D5C14E87601EF346D3F81F7DD563/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3775,18 +3775,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/7396964D77B761A9E00BEE41DE96C37B28ECF140/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C034B80F8EB64C0E635FFA7B295BE4C93EC2E435/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/7396964D77B761A9E00BEE41DE96C37B28ECF140/processed"
+    "uri": "http://memex.zapto.org/data/page/C034B80F8EB64C0E635FFA7B295BE4C93EC2E435/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C034B80F8EB64C0E635FFA7B295BE4C93EC2E435/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/7396964D77B761A9E00BEE41DE96C37B28ECF140/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C034B80F8EB64C0E635FFA7B295BE4C93EC2E435/processed"
+    "uri": "http://memex.zapto.org/data/page/7396964D77B761A9E00BEE41DE96C37B28ECF140/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3838,18 +3838,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/FA791265521AF0A27D37D0F686BEE68F874FC984/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/24C0A3CA9E3844FC5F3E5BBD5926175FDBC3C3DF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/FA791265521AF0A27D37D0F686BEE68F874FC984/processed"
+    "uri": "http://memex.zapto.org/data/page/24C0A3CA9E3844FC5F3E5BBD5926175FDBC3C3DF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/24C0A3CA9E3844FC5F3E5BBD5926175FDBC3C3DF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/FA791265521AF0A27D37D0F686BEE68F874FC984/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/24C0A3CA9E3844FC5F3E5BBD5926175FDBC3C3DF/processed"
+    "uri": "http://memex.zapto.org/data/page/FA791265521AF0A27D37D0F686BEE68F874FC984/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -3892,18 +3892,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5732A88323721D5C23CB0A5BB672309140AB85B6/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E2D5F3EF7C9C30C4138E6004373F9E812EE05C99/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/5732A88323721D5C23CB0A5BB672309140AB85B6/processed"
+    "uri": "http://memex.zapto.org/data/page/E2D5F3EF7C9C30C4138E6004373F9E812EE05C99/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E2D5F3EF7C9C30C4138E6004373F9E812EE05C99/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/5732A88323721D5C23CB0A5BB672309140AB85B6/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E2D5F3EF7C9C30C4138E6004373F9E812EE05C99/processed"
+    "uri": "http://memex.zapto.org/data/page/5732A88323721D5C23CB0A5BB672309140AB85B6/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4000,18 +4000,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E0C1D7E2EE92384BE6DF295DF79CC85835F105FE/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C62325B2F509C467832728A789E2A34FE03BA800/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E0C1D7E2EE92384BE6DF295DF79CC85835F105FE/processed"
+    "uri": "http://memex.zapto.org/data/page/C62325B2F509C467832728A789E2A34FE03BA800/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C62325B2F509C467832728A789E2A34FE03BA800/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E0C1D7E2EE92384BE6DF295DF79CC85835F105FE/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C62325B2F509C467832728A789E2A34FE03BA800/processed"
+    "uri": "http://memex.zapto.org/data/page/E0C1D7E2EE92384BE6DF295DF79CC85835F105FE/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4045,18 +4045,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/842D6E4EC09B3141D3B790FA50A2789FFAF1B101/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/3657841ED42BAFE0E316B1E52E76B0ACA69B8D3A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/842D6E4EC09B3141D3B790FA50A2789FFAF1B101/processed"
+    "uri": "http://memex.zapto.org/data/page/3657841ED42BAFE0E316B1E52E76B0ACA69B8D3A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3657841ED42BAFE0E316B1E52E76B0ACA69B8D3A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/842D6E4EC09B3141D3B790FA50A2789FFAF1B101/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3657841ED42BAFE0E316B1E52E76B0ACA69B8D3A/processed"
+    "uri": "http://memex.zapto.org/data/page/842D6E4EC09B3141D3B790FA50A2789FFAF1B101/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4243,18 +4243,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/783BDC7BE8778E6F28EBE5AB3D1676710C66AB0C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/866DACA0110F52A7BC69999A59090EF0CAC02885/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/783BDC7BE8778E6F28EBE5AB3D1676710C66AB0C/processed"
+    "uri": "http://memex.zapto.org/data/page/866DACA0110F52A7BC69999A59090EF0CAC02885/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/866DACA0110F52A7BC69999A59090EF0CAC02885/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/783BDC7BE8778E6F28EBE5AB3D1676710C66AB0C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/866DACA0110F52A7BC69999A59090EF0CAC02885/processed"
+    "uri": "http://memex.zapto.org/data/page/783BDC7BE8778E6F28EBE5AB3D1676710C66AB0C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4360,18 +4360,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/AE9FEDB657D3BA9A56C7F3718369A2DE7987A382/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9CEBD9DE77CF285A6148CFB97C61EA5D88ED0AEC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/AE9FEDB657D3BA9A56C7F3718369A2DE7987A382/processed"
+    "uri": "http://memex.zapto.org/data/page/9CEBD9DE77CF285A6148CFB97C61EA5D88ED0AEC/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9CEBD9DE77CF285A6148CFB97C61EA5D88ED0AEC/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/AE9FEDB657D3BA9A56C7F3718369A2DE7987A382/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9CEBD9DE77CF285A6148CFB97C61EA5D88ED0AEC/processed"
+    "uri": "http://memex.zapto.org/data/page/AE9FEDB657D3BA9A56C7F3718369A2DE7987A382/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4423,9 +4423,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8ADF088715DDDA2ECBCF050E6E709A8D98E09218/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/10686458C4796ACADECA02BF58C75D13D3C3BB74/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8ADF088715DDDA2ECBCF050E6E709A8D98E09218/processed"
+    "uri": "http://memex.zapto.org/data/page/10686458C4796ACADECA02BF58C75D13D3C3BB74/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4441,18 +4441,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/10686458C4796ACADECA02BF58C75D13D3C3BB74/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8ADF088715DDDA2ECBCF050E6E709A8D98E09218/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/10686458C4796ACADECA02BF58C75D13D3C3BB74/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/4901EA20C5EDFFD44B34EFBD5BC8FEB0DCFFD57F/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/4901EA20C5EDFFD44B34EFBD5BC8FEB0DCFFD57F/processed"
+    "uri": "http://memex.zapto.org/data/page/8ADF088715DDDA2ECBCF050E6E709A8D98E09218/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4468,6 +4459,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/4901EA20C5EDFFD44B34EFBD5BC8FEB0DCFFD57F/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/4901EA20C5EDFFD44B34EFBD5BC8FEB0DCFFD57F/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/7D56883F78C6D310AFA6E7AD8D2AFD263AA4F665/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/7D56883F78C6D310AFA6E7AD8D2AFD263AA4F665/processed"
@@ -4477,18 +4477,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1B4EAA0A7697124FE3C24DCD61011126650F1F98/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8AFB37F1FDC86F3672082651D0FC210AE6CBC04E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1B4EAA0A7697124FE3C24DCD61011126650F1F98/processed"
+    "uri": "http://memex.zapto.org/data/page/8AFB37F1FDC86F3672082651D0FC210AE6CBC04E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8AFB37F1FDC86F3672082651D0FC210AE6CBC04E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1B4EAA0A7697124FE3C24DCD61011126650F1F98/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8AFB37F1FDC86F3672082651D0FC210AE6CBC04E/processed"
+    "uri": "http://memex.zapto.org/data/page/1B4EAA0A7697124FE3C24DCD61011126650F1F98/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4513,15 +4513,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/74F82D9E4FF49CB853113B4A6F7EB29FD11EFE1B/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/74F82D9E4FF49CB853113B4A6F7EB29FD11EFE1B/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/4F8474E047AD286D9F577DA9741BB154357A9DCF/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/4F8474E047AD286D9F577DA9741BB154357A9DCF/processed"
@@ -4531,9 +4522,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/BB2235A6BDDFF5ADB9B4F592262A66F9C057BFB4/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/74F82D9E4FF49CB853113B4A6F7EB29FD11EFE1B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/BB2235A6BDDFF5ADB9B4F592262A66F9C057BFB4/processed"
+    "uri": "http://memex.zapto.org/data/page/74F82D9E4FF49CB853113B4A6F7EB29FD11EFE1B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4549,9 +4540,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/15E22A6F7244FF8464AF6161B4FC744390E78139/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/BB2235A6BDDFF5ADB9B4F592262A66F9C057BFB4/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/15E22A6F7244FF8464AF6161B4FC744390E78139/processed"
+    "uri": "http://memex.zapto.org/data/page/BB2235A6BDDFF5ADB9B4F592262A66F9C057BFB4/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4561,6 +4552,15 @@
         "uri": "http://memex.zapto.org/data/page/00D010A4E2D9F19687067426719A845006A1B22D/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/00D010A4E2D9F19687067426719A845006A1B22D/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/15E22A6F7244FF8464AF6161B4FC744390E78139/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/15E22A6F7244FF8464AF6161B4FC744390E78139/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4603,24 +4603,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/193A66D21FBEEE0DB6D8A6E6AAFA755F3D4F1962/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/193A66D21FBEEE0DB6D8A6E6AAFA755F3D4F1962/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/AF1D0EA75345C02A479E9DCCF443E2F0D9B1EB39/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/AF1D0EA75345C02A479E9DCCF443E2F0D9B1EB39/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/6BB83B2E8FF0F21EF862CF91F28564B8F5017F59/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/6BB83B2E8FF0F21EF862CF91F28564B8F5017F59/processed"
@@ -4630,9 +4612,27 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/193A66D21FBEEE0DB6D8A6E6AAFA755F3D4F1962/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/193A66D21FBEEE0DB6D8A6E6AAFA755F3D4F1962/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/7BA15D7280EDE14BFBE83D14CF927DA591CF8867/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/7BA15D7280EDE14BFBE83D14CF927DA591CF8867/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/AF1D0EA75345C02A479E9DCCF443E2F0D9B1EB39/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/AF1D0EA75345C02A479E9DCCF443E2F0D9B1EB39/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4918,18 +4918,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A0F863B0073D96638112F3865CD68B2382776C16/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/465BAF3AAFDF6FF1BE8373E6A70C70622037B90A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A0F863B0073D96638112F3865CD68B2382776C16/processed"
+    "uri": "http://memex.zapto.org/data/page/465BAF3AAFDF6FF1BE8373E6A70C70622037B90A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/465BAF3AAFDF6FF1BE8373E6A70C70622037B90A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A0F863B0073D96638112F3865CD68B2382776C16/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/465BAF3AAFDF6FF1BE8373E6A70C70622037B90A/processed"
+    "uri": "http://memex.zapto.org/data/page/A0F863B0073D96638112F3865CD68B2382776C16/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -4999,18 +4999,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8F7DBC48F55EB67AA3B938D268A04CB090AB5749/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8C75CBADE733C9D3DDBAAB7E71347DE02574E3CF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8F7DBC48F55EB67AA3B938D268A04CB090AB5749/processed"
+    "uri": "http://memex.zapto.org/data/page/8C75CBADE733C9D3DDBAAB7E71347DE02574E3CF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8C75CBADE733C9D3DDBAAB7E71347DE02574E3CF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8F7DBC48F55EB67AA3B938D268A04CB090AB5749/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8C75CBADE733C9D3DDBAAB7E71347DE02574E3CF/processed"
+    "uri": "http://memex.zapto.org/data/page/8F7DBC48F55EB67AA3B938D268A04CB090AB5749/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5116,18 +5116,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/7D88E54A51BCC00A248713A5F6D572CBFBFC7B45/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/89BC8A6FC28FA6E64D29295F9BA4C6C729608AD7/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/7D88E54A51BCC00A248713A5F6D572CBFBFC7B45/processed"
+    "uri": "http://memex.zapto.org/data/page/89BC8A6FC28FA6E64D29295F9BA4C6C729608AD7/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/89BC8A6FC28FA6E64D29295F9BA4C6C729608AD7/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/7D88E54A51BCC00A248713A5F6D572CBFBFC7B45/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/89BC8A6FC28FA6E64D29295F9BA4C6C729608AD7/processed"
+    "uri": "http://memex.zapto.org/data/page/7D88E54A51BCC00A248713A5F6D572CBFBFC7B45/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5368,18 +5368,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A452FCBC845C7D3AE21B459EABD3C7E1962909D1/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B15C4C9FE9306BB63B3719B1DB677CE6042644DF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A452FCBC845C7D3AE21B459EABD3C7E1962909D1/processed"
+    "uri": "http://memex.zapto.org/data/page/B15C4C9FE9306BB63B3719B1DB677CE6042644DF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B15C4C9FE9306BB63B3719B1DB677CE6042644DF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A452FCBC845C7D3AE21B459EABD3C7E1962909D1/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B15C4C9FE9306BB63B3719B1DB677CE6042644DF/processed"
+    "uri": "http://memex.zapto.org/data/page/A452FCBC845C7D3AE21B459EABD3C7E1962909D1/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5413,9 +5413,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/58B577D15000E2B8FF6338C57E50B322159CF3B6/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C3791334C6440ACB0E7CB81E7B84E85C2856C4F0/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/58B577D15000E2B8FF6338C57E50B322159CF3B6/processed"
+    "uri": "http://memex.zapto.org/data/page/C3791334C6440ACB0E7CB81E7B84E85C2856C4F0/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5431,9 +5431,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C3791334C6440ACB0E7CB81E7B84E85C2856C4F0/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/58B577D15000E2B8FF6338C57E50B322159CF3B6/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C3791334C6440ACB0E7CB81E7B84E85C2856C4F0/processed"
+    "uri": "http://memex.zapto.org/data/page/58B577D15000E2B8FF6338C57E50B322159CF3B6/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5494,18 +5494,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B40CFE0950228801E78F2BE7657711543F05277C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/746BFAE3BAB28CC854E585ACB77486621F942143/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B40CFE0950228801E78F2BE7657711543F05277C/processed"
+    "uri": "http://memex.zapto.org/data/page/746BFAE3BAB28CC854E585ACB77486621F942143/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/746BFAE3BAB28CC854E585ACB77486621F942143/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B40CFE0950228801E78F2BE7657711543F05277C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/746BFAE3BAB28CC854E585ACB77486621F942143/processed"
+    "uri": "http://memex.zapto.org/data/page/B40CFE0950228801E78F2BE7657711543F05277C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5593,18 +5593,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3C251393B166938EC0C6E4621AC2BB797F4BA12C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/226FCEDE10E5B14514EF70347642D35F57450B11/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3C251393B166938EC0C6E4621AC2BB797F4BA12C/processed"
+    "uri": "http://memex.zapto.org/data/page/226FCEDE10E5B14514EF70347642D35F57450B11/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/226FCEDE10E5B14514EF70347642D35F57450B11/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/3C251393B166938EC0C6E4621AC2BB797F4BA12C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/226FCEDE10E5B14514EF70347642D35F57450B11/processed"
+    "uri": "http://memex.zapto.org/data/page/3C251393B166938EC0C6E4621AC2BB797F4BA12C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5746,27 +5746,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/99A9A5168EFA68EB138B1B873C101279B133EBA7/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/99A9A5168EFA68EB138B1B873C101279B133EBA7/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/24DD3E19F559DD4025A27FA7C1200317C90935AC/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/24DD3E19F559DD4025A27FA7C1200317C90935AC/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CAC941EB730A27B9FB46024D0AE41110F63589E3/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/CAC941EB730A27B9FB46024D0AE41110F63589E3/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5782,9 +5764,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/83521C5C95132E9A45BBAD785EF319B996AB2ED1/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/99A9A5168EFA68EB138B1B873C101279B133EBA7/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/83521C5C95132E9A45BBAD785EF319B996AB2ED1/processed"
+    "uri": "http://memex.zapto.org/data/page/99A9A5168EFA68EB138B1B873C101279B133EBA7/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/CAC941EB730A27B9FB46024D0AE41110F63589E3/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/CAC941EB730A27B9FB46024D0AE41110F63589E3/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5794,6 +5785,15 @@
         "uri": "http://memex.zapto.org/data/page/59FFB229AE9089DE3C859D2DC02C33EAEE4A19F3/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/59FFB229AE9089DE3C859D2DC02C33EAEE4A19F3/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/83521C5C95132E9A45BBAD785EF319B996AB2ED1/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/83521C5C95132E9A45BBAD785EF319B996AB2ED1/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -5817,23 +5817,13 @@
             "featureName": "author",
             "author": "Groupsadowayadmin",
             "a": "Feature",
-            "wasGeneratedBy": [
-                {
-                    "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/136.pdf",
-                    "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
-                    "a": "Activity"
-                },
-                {
-                    "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/135.pdf",
-                    "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
-                    "a": "Activity"
-                }
-            ],
-            "wasDerivedFrom": [
-                "http://memex.zapto.org/data/page/DC1584CD2F5FAE779B32A4B2EAD70B961FD83EC6/processed",
-                "http://memex.zapto.org/data/page/E381D7B69ACAC4A47226A004EF63C61E4ACCCA4C/processed"
-            ],
-            "uri": "http://memex.zapto.org/data/author/groupsadowayadmin",
+            "wasGeneratedBy": {
+                "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/136.pdf",
+                "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
+                "a": "Activity"
+            },
+            "wasDerivedFrom": "http://memex.zapto.org/data/page/E381D7B69ACAC4A47226A004EF63C61E4ACCCA4C/processed",
+            "uri": "http://memex.zapto.org/data/page/E381D7B69ACAC4A47226A004EF63C61E4ACCCA4C/processed/featurecollection/author/groupsadowayadmin",
             "featureValue": "Groupsadowayadmin"
         },
         "a": "FeatureCollection",
@@ -5981,18 +5971,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/FB9C25EC1B1BD969A5AC6BD672EFD152D1783406/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2D11188AED5D7755EDDBF79D9FD797808835EFDF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/FB9C25EC1B1BD969A5AC6BD672EFD152D1783406/processed"
+    "uri": "http://memex.zapto.org/data/page/2D11188AED5D7755EDDBF79D9FD797808835EFDF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2D11188AED5D7755EDDBF79D9FD797808835EFDF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/FB9C25EC1B1BD969A5AC6BD672EFD152D1783406/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2D11188AED5D7755EDDBF79D9FD797808835EFDF/processed"
+    "uri": "http://memex.zapto.org/data/page/FB9C25EC1B1BD969A5AC6BD672EFD152D1783406/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6188,18 +6178,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A2BF1CA91D56C2C4FA0B3F8427D6B8C31711903B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A26E80E3A3644FCCE7DAD27232095FBB47649857/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A2BF1CA91D56C2C4FA0B3F8427D6B8C31711903B/processed"
+    "uri": "http://memex.zapto.org/data/page/A26E80E3A3644FCCE7DAD27232095FBB47649857/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A26E80E3A3644FCCE7DAD27232095FBB47649857/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A2BF1CA91D56C2C4FA0B3F8427D6B8C31711903B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A26E80E3A3644FCCE7DAD27232095FBB47649857/processed"
+    "uri": "http://memex.zapto.org/data/page/A2BF1CA91D56C2C4FA0B3F8427D6B8C31711903B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6278,18 +6268,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B154575D36C9A271A2FD9109A3760B393C229EF9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/051FA7933E833EB6DF1C1B3340A677957D00FA7E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B154575D36C9A271A2FD9109A3760B393C229EF9/processed"
+    "uri": "http://memex.zapto.org/data/page/051FA7933E833EB6DF1C1B3340A677957D00FA7E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/051FA7933E833EB6DF1C1B3340A677957D00FA7E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B154575D36C9A271A2FD9109A3760B393C229EF9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/051FA7933E833EB6DF1C1B3340A677957D00FA7E/processed"
+    "uri": "http://memex.zapto.org/data/page/B154575D36C9A271A2FD9109A3760B393C229EF9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6359,6 +6349,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/1A6D366EE25F031ABC3A2F30A186F1A2FDAE561E/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/1A6D366EE25F031ABC3A2F30A186F1A2FDAE561E/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/F401097B7C3EE43D933A5C009A85FCD40B316C9D/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/F401097B7C3EE43D933A5C009A85FCD40B316C9D/processed"
@@ -6371,15 +6370,6 @@
         "uri": "http://memex.zapto.org/data/page/8AD5EA652DC38BC868C19A2A57325DC4C1E1F8DA/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/8AD5EA652DC38BC868C19A2A57325DC4C1E1F8DA/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1A6D366EE25F031ABC3A2F30A186F1A2FDAE561E/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/1A6D366EE25F031ABC3A2F30A186F1A2FDAE561E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6431,18 +6421,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/179E5431C2C2442380455027D4D79703DE911682/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C924CFE59166C84EB06D5D3343FCFDB159793CA7/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/179E5431C2C2442380455027D4D79703DE911682/processed"
+    "uri": "http://memex.zapto.org/data/page/C924CFE59166C84EB06D5D3343FCFDB159793CA7/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C924CFE59166C84EB06D5D3343FCFDB159793CA7/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/179E5431C2C2442380455027D4D79703DE911682/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C924CFE59166C84EB06D5D3343FCFDB159793CA7/processed"
+    "uri": "http://memex.zapto.org/data/page/179E5431C2C2442380455027D4D79703DE911682/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6566,18 +6556,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0CE28FDFA866C9E0F747B0C7E9B3330BEA4F8303/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E73BFF40DBA50F1CD45056C8D96F6E5D807D8276/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/0CE28FDFA866C9E0F747B0C7E9B3330BEA4F8303/processed"
+    "uri": "http://memex.zapto.org/data/page/E73BFF40DBA50F1CD45056C8D96F6E5D807D8276/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E73BFF40DBA50F1CD45056C8D96F6E5D807D8276/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0CE28FDFA866C9E0F747B0C7E9B3330BEA4F8303/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E73BFF40DBA50F1CD45056C8D96F6E5D807D8276/processed"
+    "uri": "http://memex.zapto.org/data/page/0CE28FDFA866C9E0F747B0C7E9B3330BEA4F8303/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6593,18 +6583,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/4F79CF083C55DB15DDA48863833CC8D12502DFD0/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/39935D59778422D5B58BAB1487626D15393D9F73/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/4F79CF083C55DB15DDA48863833CC8D12502DFD0/processed"
+    "uri": "http://memex.zapto.org/data/page/39935D59778422D5B58BAB1487626D15393D9F73/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/39935D59778422D5B58BAB1487626D15393D9F73/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/4F79CF083C55DB15DDA48863833CC8D12502DFD0/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/39935D59778422D5B58BAB1487626D15393D9F73/processed"
+    "uri": "http://memex.zapto.org/data/page/4F79CF083C55DB15DDA48863833CC8D12502DFD0/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6692,18 +6682,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6B3B45D9673D2ABD2E7E0E3542BF957385899260/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/38B350A3B2061401882DFBF856A0EE9970B70446/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6B3B45D9673D2ABD2E7E0E3542BF957385899260/processed"
+    "uri": "http://memex.zapto.org/data/page/38B350A3B2061401882DFBF856A0EE9970B70446/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/38B350A3B2061401882DFBF856A0EE9970B70446/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6B3B45D9673D2ABD2E7E0E3542BF957385899260/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/38B350A3B2061401882DFBF856A0EE9970B70446/processed"
+    "uri": "http://memex.zapto.org/data/page/6B3B45D9673D2ABD2E7E0E3542BF957385899260/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6737,15 +6727,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/15BB3AC4F1D4F9D619543A7B433C5B01CDB130BB/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/15BB3AC4F1D4F9D619543A7B433C5B01CDB130BB/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/4F095A1FB0B2448FB4EE5210CF0A0E4949D3C3D8/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/4F095A1FB0B2448FB4EE5210CF0A0E4949D3C3D8/processed"
@@ -6758,6 +6739,15 @@
         "uri": "http://memex.zapto.org/data/page/DADDE4C58B0093ACDCC0DB56A3C80A622F84CE66/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/DADDE4C58B0093ACDCC0DB56A3C80A622F84CE66/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/15BB3AC4F1D4F9D619543A7B433C5B01CDB130BB/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/15BB3AC4F1D4F9D619543A7B433C5B01CDB130BB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6791,9 +6781,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2351F6817DA41E790AEEEB2617FBF1051F6B2760/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A9E6EDB2F477070525FB695F8F25EA464FA5303A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2351F6817DA41E790AEEEB2617FBF1051F6B2760/processed"
+    "uri": "http://memex.zapto.org/data/page/A9E6EDB2F477070525FB695F8F25EA464FA5303A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6809,9 +6799,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A9E6EDB2F477070525FB695F8F25EA464FA5303A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2351F6817DA41E790AEEEB2617FBF1051F6B2760/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A9E6EDB2F477070525FB695F8F25EA464FA5303A/processed"
+    "uri": "http://memex.zapto.org/data/page/2351F6817DA41E790AEEEB2617FBF1051F6B2760/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6863,18 +6853,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/18D2267190E4965BF51C26BCAEF4A657C0388145/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DA589EEB1B37F9026A551AB36C858E7E115BED5E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/18D2267190E4965BF51C26BCAEF4A657C0388145/processed"
+    "uri": "http://memex.zapto.org/data/page/DA589EEB1B37F9026A551AB36C858E7E115BED5E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DA589EEB1B37F9026A551AB36C858E7E115BED5E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/18D2267190E4965BF51C26BCAEF4A657C0388145/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DA589EEB1B37F9026A551AB36C858E7E115BED5E/processed"
+    "uri": "http://memex.zapto.org/data/page/18D2267190E4965BF51C26BCAEF4A657C0388145/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6899,18 +6889,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/47760E6A36CDBF5B0F9A19C5E1B17C9711DD3655/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DC00032934B0C4C1B94601556A13870C275BC503/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/47760E6A36CDBF5B0F9A19C5E1B17C9711DD3655/processed"
+    "uri": "http://memex.zapto.org/data/page/DC00032934B0C4C1B94601556A13870C275BC503/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DC00032934B0C4C1B94601556A13870C275BC503/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/47760E6A36CDBF5B0F9A19C5E1B17C9711DD3655/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DC00032934B0C4C1B94601556A13870C275BC503/processed"
+    "uri": "http://memex.zapto.org/data/page/47760E6A36CDBF5B0F9A19C5E1B17C9711DD3655/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6935,15 +6925,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/138101E767D027B3EB03DB0669DC1F66AF6BBB31/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/138101E767D027B3EB03DB0669DC1F66AF6BBB31/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/CD68CA58102FE38DE1E0CD7404F8191B4CD4239F/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/CD68CA58102FE38DE1E0CD7404F8191B4CD4239F/processed"
@@ -6953,9 +6934,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6B3AB9B6049AF92A35CB8A6096B9DC94D2D6CF72/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/138101E767D027B3EB03DB0669DC1F66AF6BBB31/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6B3AB9B6049AF92A35CB8A6096B9DC94D2D6CF72/processed"
+    "uri": "http://memex.zapto.org/data/page/138101E767D027B3EB03DB0669DC1F66AF6BBB31/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -6971,6 +6952,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/6B3AB9B6049AF92A35CB8A6096B9DC94D2D6CF72/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/6B3AB9B6049AF92A35CB8A6096B9DC94D2D6CF72/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/818608D5B684C1832008918989D155906AFBB736/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/818608D5B684C1832008918989D155906AFBB736/processed"
@@ -6980,18 +6970,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6D2E04A9F999123F5D88F9A8F01DDBC195FC3DAC/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/436E63E7C78D4B176A547CE7D2F41370C9CAE1D9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6D2E04A9F999123F5D88F9A8F01DDBC195FC3DAC/processed"
+    "uri": "http://memex.zapto.org/data/page/436E63E7C78D4B176A547CE7D2F41370C9CAE1D9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/436E63E7C78D4B176A547CE7D2F41370C9CAE1D9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6D2E04A9F999123F5D88F9A8F01DDBC195FC3DAC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/436E63E7C78D4B176A547CE7D2F41370C9CAE1D9/processed"
+    "uri": "http://memex.zapto.org/data/page/6D2E04A9F999123F5D88F9A8F01DDBC195FC3DAC/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7070,18 +7060,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2648F252EE86BD8F8691A0BD825B7D42F39CDE46/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A35B985D090869B8339E9FBD1C3EE0C4CD9A20BF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2648F252EE86BD8F8691A0BD825B7D42F39CDE46/processed"
+    "uri": "http://memex.zapto.org/data/page/A35B985D090869B8339E9FBD1C3EE0C4CD9A20BF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A35B985D090869B8339E9FBD1C3EE0C4CD9A20BF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2648F252EE86BD8F8691A0BD825B7D42F39CDE46/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A35B985D090869B8339E9FBD1C3EE0C4CD9A20BF/processed"
+    "uri": "http://memex.zapto.org/data/page/2648F252EE86BD8F8691A0BD825B7D42F39CDE46/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7133,6 +7123,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/5BAB5E915BED829B26B3A7226D6B1AB507B55316/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/5BAB5E915BED829B26B3A7226D6B1AB507B55316/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/22027D77708EAA0EDD1D222F889B818EBA0C2E93/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/22027D77708EAA0EDD1D222F889B818EBA0C2E93/processed"
@@ -7142,9 +7141,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5BAB5E915BED829B26B3A7226D6B1AB507B55316/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/5AFC1D3FC06CBE98F82C9593E2DD4C51DC51D6FF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/5BAB5E915BED829B26B3A7226D6B1AB507B55316/processed"
+    "uri": "http://memex.zapto.org/data/page/5AFC1D3FC06CBE98F82C9593E2DD4C51DC51D6FF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7163,15 +7162,6 @@
         "uri": "http://memex.zapto.org/data/page/A153A643DBF0F32285E9AE6BF38F973195661614/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/A153A643DBF0F32285E9AE6BF38F973195661614/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5AFC1D3FC06CBE98F82C9593E2DD4C51DC51D6FF/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/5AFC1D3FC06CBE98F82C9593E2DD4C51DC51D6FF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7205,6 +7195,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/CD73A1A5EFF0282EF23AC818684DCF7391697EFB/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/CD73A1A5EFF0282EF23AC818684DCF7391697EFB/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/5E71CE6283498B282EB95C91522395DDC18E5A39/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/5E71CE6283498B282EB95C91522395DDC18E5A39/processed"
@@ -7217,15 +7216,6 @@
         "uri": "http://memex.zapto.org/data/page/69DC544CC6C4BBCC68DD8753C86999219E14C7E3/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/69DC544CC6C4BBCC68DD8753C86999219E14C7E3/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CD73A1A5EFF0282EF23AC818684DCF7391697EFB/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/CD73A1A5EFF0282EF23AC818684DCF7391697EFB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7295,18 +7285,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E248721B5537900ECC223C6061A3C8EBED15E0A2/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/4EF7CE7811C3B6A4545B5099D9914A166FC2BA4E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E248721B5537900ECC223C6061A3C8EBED15E0A2/processed"
+    "uri": "http://memex.zapto.org/data/page/4EF7CE7811C3B6A4545B5099D9914A166FC2BA4E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/4EF7CE7811C3B6A4545B5099D9914A166FC2BA4E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E248721B5537900ECC223C6061A3C8EBED15E0A2/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/4EF7CE7811C3B6A4545B5099D9914A166FC2BA4E/processed"
+    "uri": "http://memex.zapto.org/data/page/E248721B5537900ECC223C6061A3C8EBED15E0A2/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7349,9 +7339,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CA35C6D400DF9A4AEFC44BB22C635ED3119AD1CF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A0FB59D187C997C3A711329FAE06B0A37A6135CE/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/CA35C6D400DF9A4AEFC44BB22C635ED3119AD1CF/processed"
+    "uri": "http://memex.zapto.org/data/page/A0FB59D187C997C3A711329FAE06B0A37A6135CE/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7367,9 +7357,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A0FB59D187C997C3A711329FAE06B0A37A6135CE/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/CA35C6D400DF9A4AEFC44BB22C635ED3119AD1CF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A0FB59D187C997C3A711329FAE06B0A37A6135CE/processed"
+    "uri": "http://memex.zapto.org/data/page/CA35C6D400DF9A4AEFC44BB22C635ED3119AD1CF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7385,18 +7375,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/20EF74C89B8AF9E6A18206D94E16A5ADED4E6860/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D0D5217934CB7054411E785BFE8D16D1B61C8AB2/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/20EF74C89B8AF9E6A18206D94E16A5ADED4E6860/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0BC0A58F7D7007B668B205F35103D6E6E1670CFC/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/0BC0A58F7D7007B668B205F35103D6E6E1670CFC/processed"
+    "uri": "http://memex.zapto.org/data/page/D0D5217934CB7054411E785BFE8D16D1B61C8AB2/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7412,9 +7393,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D0D5217934CB7054411E785BFE8D16D1B61C8AB2/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0BC0A58F7D7007B668B205F35103D6E6E1670CFC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D0D5217934CB7054411E785BFE8D16D1B61C8AB2/processed"
+    "uri": "http://memex.zapto.org/data/page/0BC0A58F7D7007B668B205F35103D6E6E1670CFC/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/20EF74C89B8AF9E6A18206D94E16A5ADED4E6860/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/20EF74C89B8AF9E6A18206D94E16A5ADED4E6860/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7502,18 +7492,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0686BA8D42BAE17E64A10DC31306C67EE9E509CB/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6F7E09A53336630EBB5425FCB61F96DAA0DCD3DD/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/0686BA8D42BAE17E64A10DC31306C67EE9E509CB/processed"
+    "uri": "http://memex.zapto.org/data/page/6F7E09A53336630EBB5425FCB61F96DAA0DCD3DD/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6F7E09A53336630EBB5425FCB61F96DAA0DCD3DD/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0686BA8D42BAE17E64A10DC31306C67EE9E509CB/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6F7E09A53336630EBB5425FCB61F96DAA0DCD3DD/processed"
+    "uri": "http://memex.zapto.org/data/page/0686BA8D42BAE17E64A10DC31306C67EE9E509CB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7565,18 +7555,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/12D5D66168F9B6A52F3E96C4F63CCE564C081C52/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B4A9DB37B8FFDC01B616F9F69C9AFA1BD0C4B11C/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/12D5D66168F9B6A52F3E96C4F63CCE564C081C52/processed"
+    "uri": "http://memex.zapto.org/data/page/B4A9DB37B8FFDC01B616F9F69C9AFA1BD0C4B11C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B4A9DB37B8FFDC01B616F9F69C9AFA1BD0C4B11C/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/12D5D66168F9B6A52F3E96C4F63CCE564C081C52/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B4A9DB37B8FFDC01B616F9F69C9AFA1BD0C4B11C/processed"
+    "uri": "http://memex.zapto.org/data/page/12D5D66168F9B6A52F3E96C4F63CCE564C081C52/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7646,9 +7636,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/89FB2B04341B27952A6D60BF56B4892681DE4ABF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F0BD805D1C5EBB03CD1B407D7F9D3B0942605731/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/89FB2B04341B27952A6D60BF56B4892681DE4ABF/processed"
+    "uri": "http://memex.zapto.org/data/page/F0BD805D1C5EBB03CD1B407D7F9D3B0942605731/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7664,9 +7654,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F0BD805D1C5EBB03CD1B407D7F9D3B0942605731/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/89FB2B04341B27952A6D60BF56B4892681DE4ABF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F0BD805D1C5EBB03CD1B407D7F9D3B0942605731/processed"
+    "uri": "http://memex.zapto.org/data/page/89FB2B04341B27952A6D60BF56B4892681DE4ABF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7682,18 +7672,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/09BEA182CF536CD54EA1DE25631F863C97DED8FB/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F8ECAD77E4D64EA5DC5D5E7B4B0464AA3130A652/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/09BEA182CF536CD54EA1DE25631F863C97DED8FB/processed"
+    "uri": "http://memex.zapto.org/data/page/F8ECAD77E4D64EA5DC5D5E7B4B0464AA3130A652/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F8ECAD77E4D64EA5DC5D5E7B4B0464AA3130A652/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/09BEA182CF536CD54EA1DE25631F863C97DED8FB/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F8ECAD77E4D64EA5DC5D5E7B4B0464AA3130A652/processed"
+    "uri": "http://memex.zapto.org/data/page/09BEA182CF536CD54EA1DE25631F863C97DED8FB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7718,18 +7708,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DB61725F6DF80F4571A507AE3502AA402B5F2506/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A8CF647FF59E94C4BC1B44484FED4963CD0DED7B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DB61725F6DF80F4571A507AE3502AA402B5F2506/processed"
+    "uri": "http://memex.zapto.org/data/page/A8CF647FF59E94C4BC1B44484FED4963CD0DED7B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A8CF647FF59E94C4BC1B44484FED4963CD0DED7B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DB61725F6DF80F4571A507AE3502AA402B5F2506/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A8CF647FF59E94C4BC1B44484FED4963CD0DED7B/processed"
+    "uri": "http://memex.zapto.org/data/page/DB61725F6DF80F4571A507AE3502AA402B5F2506/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7745,18 +7735,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/463BA18E6218E270051FE0103184D4D60FA7BDC9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/248BDC9A5D8C8BFE85CA153B7FFCBEBCB93582BD/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/463BA18E6218E270051FE0103184D4D60FA7BDC9/processed"
+    "uri": "http://memex.zapto.org/data/page/248BDC9A5D8C8BFE85CA153B7FFCBEBCB93582BD/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/248BDC9A5D8C8BFE85CA153B7FFCBEBCB93582BD/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/463BA18E6218E270051FE0103184D4D60FA7BDC9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/248BDC9A5D8C8BFE85CA153B7FFCBEBCB93582BD/processed"
+    "uri": "http://memex.zapto.org/data/page/463BA18E6218E270051FE0103184D4D60FA7BDC9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7790,18 +7780,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/28AC8E4D5BCE6C8C12C00D99B048153F6B064E33/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/964E86CED7FF6CDF737F535597D078D747EF4C22/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/28AC8E4D5BCE6C8C12C00D99B048153F6B064E33/processed"
+    "uri": "http://memex.zapto.org/data/page/964E86CED7FF6CDF737F535597D078D747EF4C22/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/964E86CED7FF6CDF737F535597D078D747EF4C22/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/28AC8E4D5BCE6C8C12C00D99B048153F6B064E33/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/964E86CED7FF6CDF737F535597D078D747EF4C22/processed"
+    "uri": "http://memex.zapto.org/data/page/28AC8E4D5BCE6C8C12C00D99B048153F6B064E33/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7844,15 +7834,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/982C51FB61C5DBCC1E8536B5758793AB88737A11/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/982C51FB61C5DBCC1E8536B5758793AB88737A11/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/95278766D7834EE0F0F0C609B8E8C3996CE03ACF/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/95278766D7834EE0F0F0C609B8E8C3996CE03ACF/processed"
@@ -7862,18 +7843,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0F783E4325127EC0A0CAD7FEBACB9847F7AAC799/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/982C51FB61C5DBCC1E8536B5758793AB88737A11/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/0F783E4325127EC0A0CAD7FEBACB9847F7AAC799/processed"
+    "uri": "http://memex.zapto.org/data/page/982C51FB61C5DBCC1E8536B5758793AB88737A11/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A8653D6B667C6B7FD32BE068E72A2DC9B7E364AD/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0F783E4325127EC0A0CAD7FEBACB9847F7AAC799/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A8653D6B667C6B7FD32BE068E72A2DC9B7E364AD/processed"
+    "uri": "http://memex.zapto.org/data/page/0F783E4325127EC0A0CAD7FEBACB9847F7AAC799/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7898,9 +7879,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C19F0A94D5CCBA57E574FA173D05C7FA71F58886/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A8653D6B667C6B7FD32BE068E72A2DC9B7E364AD/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C19F0A94D5CCBA57E574FA173D05C7FA71F58886/processed"
+    "uri": "http://memex.zapto.org/data/page/A8653D6B667C6B7FD32BE068E72A2DC9B7E364AD/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7910,6 +7891,15 @@
         "uri": "http://memex.zapto.org/data/page/6BD170CAE85620B99972107928F3A11382A07269/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/6BD170CAE85620B99972107928F3A11382A07269/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/C19F0A94D5CCBA57E574FA173D05C7FA71F58886/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/C19F0A94D5CCBA57E574FA173D05C7FA71F58886/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -7952,15 +7942,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B2E114541F10788F73843C65E3887CB2345F7ED8/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/B2E114541F10788F73843C65E3887CB2345F7ED8/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/FCB28B677406B78A8050B08D43A056B6DD21E2AB/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/FCB28B677406B78A8050B08D43A056B6DD21E2AB/processed"
@@ -7979,6 +7960,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/B2E114541F10788F73843C65E3887CB2345F7ED8/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/B2E114541F10788F73843C65E3887CB2345F7ED8/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/2F43826E2679170B02EE2860A3B4E2ED1754F4D1/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/2F43826E2679170B02EE2860A3B4E2ED1754F4D1/processed"
@@ -7988,18 +7978,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/24A0E419708BE4E1AAB99CC8F6162F501AC13E8E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2056A4DE28CA6E47E92733854226834A6D5C2725/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/24A0E419708BE4E1AAB99CC8F6162F501AC13E8E/processed"
+    "uri": "http://memex.zapto.org/data/page/2056A4DE28CA6E47E92733854226834A6D5C2725/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2056A4DE28CA6E47E92733854226834A6D5C2725/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/24A0E419708BE4E1AAB99CC8F6162F501AC13E8E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2056A4DE28CA6E47E92733854226834A6D5C2725/processed"
+    "uri": "http://memex.zapto.org/data/page/24A0E419708BE4E1AAB99CC8F6162F501AC13E8E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8069,9 +8059,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B51D0CA9527201B409E351BCEEA33622AC5DCFEC/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/FD076EBF2FEAB9228D2E3EE7FEEF5483DF7FEC7B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B51D0CA9527201B409E351BCEEA33622AC5DCFEC/processed"
+    "uri": "http://memex.zapto.org/data/page/FD076EBF2FEAB9228D2E3EE7FEEF5483DF7FEC7B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8105,9 +8095,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/FD076EBF2FEAB9228D2E3EE7FEEF5483DF7FEC7B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B51D0CA9527201B409E351BCEEA33622AC5DCFEC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/FD076EBF2FEAB9228D2E3EE7FEEF5483DF7FEC7B/processed"
+    "uri": "http://memex.zapto.org/data/page/B51D0CA9527201B409E351BCEEA33622AC5DCFEC/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8330,18 +8320,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/80AB3A943B32B7AA6E23FC0D9F159942FE39BF92/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/555B1A3D5A331F00843EEA6F2E632E7E9553451A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/80AB3A943B32B7AA6E23FC0D9F159942FE39BF92/processed"
+    "uri": "http://memex.zapto.org/data/page/555B1A3D5A331F00843EEA6F2E632E7E9553451A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/555B1A3D5A331F00843EEA6F2E632E7E9553451A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/80AB3A943B32B7AA6E23FC0D9F159942FE39BF92/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/555B1A3D5A331F00843EEA6F2E632E7E9553451A/processed"
+    "uri": "http://memex.zapto.org/data/page/80AB3A943B32B7AA6E23FC0D9F159942FE39BF92/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8375,15 +8365,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6A4A6E77AF9EEBF072C65A2A995BE45F88F1FA8E/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/6A4A6E77AF9EEBF072C65A2A995BE45F88F1FA8E/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/0DF59519F520CCE01C99ED777F4D84A581C4974D/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/0DF59519F520CCE01C99ED777F4D84A581C4974D/processed"
@@ -8393,9 +8374,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/80F5CF4EB7E07647DF2F1CEB98415A216473FB8B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6A4A6E77AF9EEBF072C65A2A995BE45F88F1FA8E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/80F5CF4EB7E07647DF2F1CEB98415A216473FB8B/processed"
+    "uri": "http://memex.zapto.org/data/page/6A4A6E77AF9EEBF072C65A2A995BE45F88F1FA8E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8405,6 +8386,15 @@
         "uri": "http://memex.zapto.org/data/page/9FB1D5B125EB6E77D46C8B328D93EC52F972CA83/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/9FB1D5B125EB6E77D46C8B328D93EC52F972CA83/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/80F5CF4EB7E07647DF2F1CEB98415A216473FB8B/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/80F5CF4EB7E07647DF2F1CEB98415A216473FB8B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8447,18 +8437,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9EFD3AE5A612814FA6864CD81A18969BBFF807E4/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DE47522A5D80BC09C7C67E62E398EDBDE1FB3D6E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9EFD3AE5A612814FA6864CD81A18969BBFF807E4/processed"
+    "uri": "http://memex.zapto.org/data/page/DE47522A5D80BC09C7C67E62E398EDBDE1FB3D6E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DE47522A5D80BC09C7C67E62E398EDBDE1FB3D6E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9EFD3AE5A612814FA6864CD81A18969BBFF807E4/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DE47522A5D80BC09C7C67E62E398EDBDE1FB3D6E/processed"
+    "uri": "http://memex.zapto.org/data/page/9EFD3AE5A612814FA6864CD81A18969BBFF807E4/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8510,15 +8500,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F6F43A4F2270578B9300850F5BD20CB65EC7D21A/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/F6F43A4F2270578B9300850F5BD20CB65EC7D21A/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/CA097D509315B8DD85C204718295932AD177E173/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/CA097D509315B8DD85C204718295932AD177E173/processed"
@@ -8537,9 +8518,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2BFE317AA13E1F7B90928C4EA86EAD6402D9B772/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F6F43A4F2270578B9300850F5BD20CB65EC7D21A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2BFE317AA13E1F7B90928C4EA86EAD6402D9B772/processed"
+    "uri": "http://memex.zapto.org/data/page/F6F43A4F2270578B9300850F5BD20CB65EC7D21A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8549,6 +8530,15 @@
         "uri": "http://memex.zapto.org/data/page/6BDE1AA1535703F9923111116CFBD1AAE05DD8F7/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/6BDE1AA1535703F9923111116CFBD1AAE05DD8F7/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/2BFE317AA13E1F7B90928C4EA86EAD6402D9B772/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/2BFE317AA13E1F7B90928C4EA86EAD6402D9B772/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8582,18 +8572,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CF2857960D551D510B6ADF72F499057A5E7B76F8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/80DE469B8CF74B9E611436D94345F9FC1E898514/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/CF2857960D551D510B6ADF72F499057A5E7B76F8/processed"
+    "uri": "http://memex.zapto.org/data/page/80DE469B8CF74B9E611436D94345F9FC1E898514/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/80DE469B8CF74B9E611436D94345F9FC1E898514/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/CF2857960D551D510B6ADF72F499057A5E7B76F8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/80DE469B8CF74B9E611436D94345F9FC1E898514/processed"
+    "uri": "http://memex.zapto.org/data/page/CF2857960D551D510B6ADF72F499057A5E7B76F8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8672,18 +8662,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/10DACAC1DF955C43BF1874F586098879ACD913F8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DA58A86E6B615676D620C972EFBC08F05FDCBEAE/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/10DACAC1DF955C43BF1874F586098879ACD913F8/processed"
+    "uri": "http://memex.zapto.org/data/page/DA58A86E6B615676D620C972EFBC08F05FDCBEAE/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DA58A86E6B615676D620C972EFBC08F05FDCBEAE/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/10DACAC1DF955C43BF1874F586098879ACD913F8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DA58A86E6B615676D620C972EFBC08F05FDCBEAE/processed"
+    "uri": "http://memex.zapto.org/data/page/10DACAC1DF955C43BF1874F586098879ACD913F8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8924,18 +8914,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3D1C9E402B82BF29A827AD81EDED583FB92B0FD5/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/0AEFB6301D1F506D32C7711F206493BB170A41C5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3D1C9E402B82BF29A827AD81EDED583FB92B0FD5/processed"
+    "uri": "http://memex.zapto.org/data/page/0AEFB6301D1F506D32C7711F206493BB170A41C5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/0AEFB6301D1F506D32C7711F206493BB170A41C5/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/3D1C9E402B82BF29A827AD81EDED583FB92B0FD5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/0AEFB6301D1F506D32C7711F206493BB170A41C5/processed"
+    "uri": "http://memex.zapto.org/data/page/3D1C9E402B82BF29A827AD81EDED583FB92B0FD5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -8951,18 +8941,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/758CB77AB185AACD160175E304F0C1C74445C1D6/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8A30C8504D23EB73D4D44BF8A9A234AC9F498901/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/758CB77AB185AACD160175E304F0C1C74445C1D6/processed"
+    "uri": "http://memex.zapto.org/data/page/8A30C8504D23EB73D4D44BF8A9A234AC9F498901/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8A30C8504D23EB73D4D44BF8A9A234AC9F498901/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/758CB77AB185AACD160175E304F0C1C74445C1D6/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8A30C8504D23EB73D4D44BF8A9A234AC9F498901/processed"
+    "uri": "http://memex.zapto.org/data/page/758CB77AB185AACD160175E304F0C1C74445C1D6/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9014,9 +9004,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/22168338C89BD412444805EA986582219DBF20C6/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9E58465C4E100BBB6876FD7942F2000266082FE1/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/22168338C89BD412444805EA986582219DBF20C6/processed"
+    "uri": "http://memex.zapto.org/data/page/9E58465C4E100BBB6876FD7942F2000266082FE1/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9032,9 +9022,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9E58465C4E100BBB6876FD7942F2000266082FE1/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/22168338C89BD412444805EA986582219DBF20C6/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9E58465C4E100BBB6876FD7942F2000266082FE1/processed"
+    "uri": "http://memex.zapto.org/data/page/22168338C89BD412444805EA986582219DBF20C6/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9050,18 +9040,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B7823118645022E128D1CEBA70D7E4A05409D587/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/7019DBF0DAEF3D64AD274ACF9C4FDFD09542ACFF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B7823118645022E128D1CEBA70D7E4A05409D587/processed"
+    "uri": "http://memex.zapto.org/data/page/7019DBF0DAEF3D64AD274ACF9C4FDFD09542ACFF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/7019DBF0DAEF3D64AD274ACF9C4FDFD09542ACFF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B7823118645022E128D1CEBA70D7E4A05409D587/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/7019DBF0DAEF3D64AD274ACF9C4FDFD09542ACFF/processed"
+    "uri": "http://memex.zapto.org/data/page/B7823118645022E128D1CEBA70D7E4A05409D587/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9095,6 +9085,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/E83B2B69E0D3389A4692F260ECDFDD50AA46F0D7/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/E83B2B69E0D3389A4692F260ECDFDD50AA46F0D7/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/F5DF7D20F48ABF343BC5643E2D5308C0A3E62A9F/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/F5DF7D20F48ABF343BC5643E2D5308C0A3E62A9F/processed"
@@ -9107,15 +9106,6 @@
         "uri": "http://memex.zapto.org/data/page/D2B30210F4218493181B63061FD6E41698505BFC/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/D2B30210F4218493181B63061FD6E41698505BFC/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E83B2B69E0D3389A4692F260ECDFDD50AA46F0D7/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/E83B2B69E0D3389A4692F260ECDFDD50AA46F0D7/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9149,15 +9139,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/EB74ABA04E917AA05E1CBE037B2383A5AE6F138C/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/EB74ABA04E917AA05E1CBE037B2383A5AE6F138C/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/571BB46C8659D7A6EAD18A3C5699C7E4285C92DE/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/571BB46C8659D7A6EAD18A3C5699C7E4285C92DE/processed"
@@ -9170,6 +9151,15 @@
         "uri": "http://memex.zapto.org/data/page/33C72C6A354B743C92227129C81DE0BF2358E1B3/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/33C72C6A354B743C92227129C81DE0BF2358E1B3/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/EB74ABA04E917AA05E1CBE037B2383A5AE6F138C/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/EB74ABA04E917AA05E1CBE037B2383A5AE6F138C/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9302,18 +9292,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B06AD4912EB9D6208AC46B5760B1723FB34F89E5/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/67ECE0C0394090E6433C1D559AB3CF7ABCC90F65/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/B06AD4912EB9D6208AC46B5760B1723FB34F89E5/processed"
+    "uri": "http://memex.zapto.org/data/page/67ECE0C0394090E6433C1D559AB3CF7ABCC90F65/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/67ECE0C0394090E6433C1D559AB3CF7ABCC90F65/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/B06AD4912EB9D6208AC46B5760B1723FB34F89E5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/67ECE0C0394090E6433C1D559AB3CF7ABCC90F65/processed"
+    "uri": "http://memex.zapto.org/data/page/B06AD4912EB9D6208AC46B5760B1723FB34F89E5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9338,15 +9328,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2731E266759CE939C94AAD110EDB661D2A067156/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/2731E266759CE939C94AAD110EDB661D2A067156/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/EAC22B8E1797FAE0932742D8905C9654EEA340B0/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/EAC22B8E1797FAE0932742D8905C9654EEA340B0/processed"
@@ -9356,9 +9337,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/294DCFD647DB7BF69296A2CAC164988FD493DD67/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2731E266759CE939C94AAD110EDB661D2A067156/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/294DCFD647DB7BF69296A2CAC164988FD493DD67/processed"
+    "uri": "http://memex.zapto.org/data/page/2731E266759CE939C94AAD110EDB661D2A067156/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9368,6 +9349,15 @@
         "uri": "http://memex.zapto.org/data/page/E1CFE40A5B1D5D74E17A6BD394CFF530DF09BDDC/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/E1CFE40A5B1D5D74E17A6BD394CFF530DF09BDDC/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/294DCFD647DB7BF69296A2CAC164988FD493DD67/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/294DCFD647DB7BF69296A2CAC164988FD493DD67/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9689,15 +9679,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2B31437CD7EA7F60D092AACFFB0C810A48CD3316/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/2B31437CD7EA7F60D092AACFFB0C810A48CD3316/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/946C7C207EB977626411CC916C816AC2EE836946/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/946C7C207EB977626411CC916C816AC2EE836946/processed"
@@ -9707,9 +9688,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/72DA50286DB62B8050C9D4370912946F1AFAE07E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2B31437CD7EA7F60D092AACFFB0C810A48CD3316/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/72DA50286DB62B8050C9D4370912946F1AFAE07E/processed"
+    "uri": "http://memex.zapto.org/data/page/2B31437CD7EA7F60D092AACFFB0C810A48CD3316/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9725,9 +9706,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D12565C7D041B3BC5890EF5BAA6CD35274AFF3F4/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/72DA50286DB62B8050C9D4370912946F1AFAE07E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D12565C7D041B3BC5890EF5BAA6CD35274AFF3F4/processed"
+    "uri": "http://memex.zapto.org/data/page/72DA50286DB62B8050C9D4370912946F1AFAE07E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9737,6 +9718,15 @@
         "uri": "http://memex.zapto.org/data/page/51806572A3B3886645D819A2A926767C1DF3E5A0/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/51806572A3B3886645D819A2A926767C1DF3E5A0/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/D12565C7D041B3BC5890EF5BAA6CD35274AFF3F4/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/D12565C7D041B3BC5890EF5BAA6CD35274AFF3F4/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -9815,18 +9805,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1A87A56915F330CB4084DDCA20E9D3D07F2777E4/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/137A79D4CD60C66F7F8BB9E5B6FBA09057764C24/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1A87A56915F330CB4084DDCA20E9D3D07F2777E4/processed"
+    "uri": "http://memex.zapto.org/data/page/137A79D4CD60C66F7F8BB9E5B6FBA09057764C24/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/137A79D4CD60C66F7F8BB9E5B6FBA09057764C24/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1A87A56915F330CB4084DDCA20E9D3D07F2777E4/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/137A79D4CD60C66F7F8BB9E5B6FBA09057764C24/processed"
+    "uri": "http://memex.zapto.org/data/page/1A87A56915F330CB4084DDCA20E9D3D07F2777E4/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10121,18 +10111,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3612EBA30BD7E55E8BDC61F942BC2EB6219006BA/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/77F2932492740D0372910FC680C9B4BF37E9D2EA/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3612EBA30BD7E55E8BDC61F942BC2EB6219006BA/processed"
+    "uri": "http://memex.zapto.org/data/page/77F2932492740D0372910FC680C9B4BF37E9D2EA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/77F2932492740D0372910FC680C9B4BF37E9D2EA/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/3612EBA30BD7E55E8BDC61F942BC2EB6219006BA/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/77F2932492740D0372910FC680C9B4BF37E9D2EA/processed"
+    "uri": "http://memex.zapto.org/data/page/3612EBA30BD7E55E8BDC61F942BC2EB6219006BA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10229,18 +10219,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/5469E7F8B94576D69CC560658775E8C1B71D5A1A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6F0F63AE47C639211ADB63661598B6B55FFCA737/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/5469E7F8B94576D69CC560658775E8C1B71D5A1A/processed"
+    "uri": "http://memex.zapto.org/data/page/6F0F63AE47C639211ADB63661598B6B55FFCA737/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6F0F63AE47C639211ADB63661598B6B55FFCA737/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/5469E7F8B94576D69CC560658775E8C1B71D5A1A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6F0F63AE47C639211ADB63661598B6B55FFCA737/processed"
+    "uri": "http://memex.zapto.org/data/page/5469E7F8B94576D69CC560658775E8C1B71D5A1A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10310,18 +10300,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D6A2A35A0793D2DD7103C615EA2FAF06F206D5E9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/4C8208BF19E3FED90A6F1F2A7685FB87DD7B4BEB/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D6A2A35A0793D2DD7103C615EA2FAF06F206D5E9/processed"
+    "uri": "http://memex.zapto.org/data/page/4C8208BF19E3FED90A6F1F2A7685FB87DD7B4BEB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/4C8208BF19E3FED90A6F1F2A7685FB87DD7B4BEB/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D6A2A35A0793D2DD7103C615EA2FAF06F206D5E9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/4C8208BF19E3FED90A6F1F2A7685FB87DD7B4BEB/processed"
+    "uri": "http://memex.zapto.org/data/page/D6A2A35A0793D2DD7103C615EA2FAF06F206D5E9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10382,18 +10372,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E49B1AE607DF8A4F4C9AE8D47D13F5305BC0BD77/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/CE81385985822817A52926CD576467CA80391D4D/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E49B1AE607DF8A4F4C9AE8D47D13F5305BC0BD77/processed"
+    "uri": "http://memex.zapto.org/data/page/CE81385985822817A52926CD576467CA80391D4D/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/CE81385985822817A52926CD576467CA80391D4D/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E49B1AE607DF8A4F4C9AE8D47D13F5305BC0BD77/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/CE81385985822817A52926CD576467CA80391D4D/processed"
+    "uri": "http://memex.zapto.org/data/page/E49B1AE607DF8A4F4C9AE8D47D13F5305BC0BD77/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10435,23 +10425,13 @@
             "featureName": "author",
             "author": "Groupsadowayadmin",
             "a": "Feature",
-            "wasGeneratedBy": [
-                {
-                    "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/136.pdf",
-                    "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
-                    "a": "Activity"
-                },
-                {
-                    "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/135.pdf",
-                    "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
-                    "a": "Activity"
-                }
-            ],
-            "wasDerivedFrom": [
-                "http://memex.zapto.org/data/page/DC1584CD2F5FAE779B32A4B2EAD70B961FD83EC6/processed",
-                "http://memex.zapto.org/data/page/E381D7B69ACAC4A47226A004EF63C61E4ACCCA4C/processed"
-            ],
-            "uri": "http://memex.zapto.org/data/author/groupsadowayadmin",
+            "wasGeneratedBy": {
+                "databaseId": "http://sadoway.mit.edu/wordpress/wp-content/uploads/2011/06/135.pdf",
+                "wasAttributedTo": "http://memex.zapto.org/data/software/jpl/version/0.1",
+                "a": "Activity"
+            },
+            "wasDerivedFrom": "http://memex.zapto.org/data/page/DC1584CD2F5FAE779B32A4B2EAD70B961FD83EC6/processed",
+            "uri": "http://memex.zapto.org/data/page/DC1584CD2F5FAE779B32A4B2EAD70B961FD83EC6/processed/featurecollection/author/groupsadowayadmin",
             "featureValue": "Groupsadowayadmin"
         },
         "a": "FeatureCollection",
@@ -10473,18 +10453,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D55B839AEB890E0AAF645D554267F9336515DBAF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/AEBFC56FB53D7CF6FFC705B58907B7A11B9FFAC8/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D55B839AEB890E0AAF645D554267F9336515DBAF/processed"
+    "uri": "http://memex.zapto.org/data/page/AEBFC56FB53D7CF6FFC705B58907B7A11B9FFAC8/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/AEBFC56FB53D7CF6FFC705B58907B7A11B9FFAC8/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D55B839AEB890E0AAF645D554267F9336515DBAF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/AEBFC56FB53D7CF6FFC705B58907B7A11B9FFAC8/processed"
+    "uri": "http://memex.zapto.org/data/page/D55B839AEB890E0AAF645D554267F9336515DBAF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10536,18 +10516,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/45A14AC4CC8AAA07EF44A231996CADE289C32482/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/44B3AD6B787638317FDBC77702349C615C907EE3/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/45A14AC4CC8AAA07EF44A231996CADE289C32482/processed"
+    "uri": "http://memex.zapto.org/data/page/44B3AD6B787638317FDBC77702349C615C907EE3/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/44B3AD6B787638317FDBC77702349C615C907EE3/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/45A14AC4CC8AAA07EF44A231996CADE289C32482/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/44B3AD6B787638317FDBC77702349C615C907EE3/processed"
+    "uri": "http://memex.zapto.org/data/page/45A14AC4CC8AAA07EF44A231996CADE289C32482/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10599,18 +10579,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6E253A3D408C0DFCECF6DC3776776F57F66CDBD5/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C3BC148DFD3E08A9325B961D94D3927171987BE0/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6E253A3D408C0DFCECF6DC3776776F57F66CDBD5/processed"
+    "uri": "http://memex.zapto.org/data/page/C3BC148DFD3E08A9325B961D94D3927171987BE0/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C3BC148DFD3E08A9325B961D94D3927171987BE0/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6E253A3D408C0DFCECF6DC3776776F57F66CDBD5/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C3BC148DFD3E08A9325B961D94D3927171987BE0/processed"
+    "uri": "http://memex.zapto.org/data/page/6E253A3D408C0DFCECF6DC3776776F57F66CDBD5/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10698,18 +10678,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/8550548DD5063B8045612A49F9ECA46B1A1BDC2F/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/692379BF92443329D2BC9C47A9859B2DBF897AF9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/8550548DD5063B8045612A49F9ECA46B1A1BDC2F/processed"
+    "uri": "http://memex.zapto.org/data/page/692379BF92443329D2BC9C47A9859B2DBF897AF9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/692379BF92443329D2BC9C47A9859B2DBF897AF9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/8550548DD5063B8045612A49F9ECA46B1A1BDC2F/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/692379BF92443329D2BC9C47A9859B2DBF897AF9/processed"
+    "uri": "http://memex.zapto.org/data/page/8550548DD5063B8045612A49F9ECA46B1A1BDC2F/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10761,18 +10741,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/09DD689899ABC1ABD406589B0D5C18F312B65A09/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/3C86437473D169A0289A818E5BCCE2D6DBD2B61A/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/09DD689899ABC1ABD406589B0D5C18F312B65A09/processed"
+    "uri": "http://memex.zapto.org/data/page/3C86437473D169A0289A818E5BCCE2D6DBD2B61A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/3C86437473D169A0289A818E5BCCE2D6DBD2B61A/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/09DD689899ABC1ABD406589B0D5C18F312B65A09/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/3C86437473D169A0289A818E5BCCE2D6DBD2B61A/processed"
+    "uri": "http://memex.zapto.org/data/page/09DD689899ABC1ABD406589B0D5C18F312B65A09/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10797,18 +10777,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F9F317C73CFEA2387DB17856D38A3257F32BD02F/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2737FD12C1492A24195F91BFFE5C42D6760EE0BD/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/F9F317C73CFEA2387DB17856D38A3257F32BD02F/processed"
+    "uri": "http://memex.zapto.org/data/page/2737FD12C1492A24195F91BFFE5C42D6760EE0BD/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2737FD12C1492A24195F91BFFE5C42D6760EE0BD/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/F9F317C73CFEA2387DB17856D38A3257F32BD02F/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2737FD12C1492A24195F91BFFE5C42D6760EE0BD/processed"
+    "uri": "http://memex.zapto.org/data/page/F9F317C73CFEA2387DB17856D38A3257F32BD02F/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10842,6 +10822,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/B20D2798B396311F77A70E63A79B339C2C37F889/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/B20D2798B396311F77A70E63A79B339C2C37F889/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/6C94086F6C504B2E1FFF3B4EFB8952E5B6F58FCB/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/6C94086F6C504B2E1FFF3B4EFB8952E5B6F58FCB/processed"
@@ -10854,15 +10843,6 @@
         "uri": "http://memex.zapto.org/data/page/F59E2AEBDCC2C84594747BDE581072201996C1B2/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/F59E2AEBDCC2C84594747BDE581072201996C1B2/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/B20D2798B396311F77A70E63A79B339C2C37F889/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/B20D2798B396311F77A70E63A79B339C2C37F889/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -10968,18 +10948,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D449A4DE3EC324A64E958E67BE5D33550F5C5A28/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/180E1CEE70FBB6DC4EC1D66541D595AF31DBB281/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D449A4DE3EC324A64E958E67BE5D33550F5C5A28/processed"
+    "uri": "http://memex.zapto.org/data/page/180E1CEE70FBB6DC4EC1D66541D595AF31DBB281/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/180E1CEE70FBB6DC4EC1D66541D595AF31DBB281/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D449A4DE3EC324A64E958E67BE5D33550F5C5A28/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/180E1CEE70FBB6DC4EC1D66541D595AF31DBB281/processed"
+    "uri": "http://memex.zapto.org/data/page/D449A4DE3EC324A64E958E67BE5D33550F5C5A28/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11013,18 +10993,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/E9053451C81E1BCE8F3F2F51FAB4803086370620/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/998B840698A62EAC150E6255EA8FC35A253AC7EB/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/E9053451C81E1BCE8F3F2F51FAB4803086370620/processed"
+    "uri": "http://memex.zapto.org/data/page/998B840698A62EAC150E6255EA8FC35A253AC7EB/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/998B840698A62EAC150E6255EA8FC35A253AC7EB/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/E9053451C81E1BCE8F3F2F51FAB4803086370620/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/998B840698A62EAC150E6255EA8FC35A253AC7EB/processed"
+    "uri": "http://memex.zapto.org/data/page/E9053451C81E1BCE8F3F2F51FAB4803086370620/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11157,18 +11137,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/DDB85776F0E19C3EAA284C300A43CE20C69B6788/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/9B9B31AEF97F297B8132387141A4CF2C6B4AB645/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/DDB85776F0E19C3EAA284C300A43CE20C69B6788/processed"
+    "uri": "http://memex.zapto.org/data/page/9B9B31AEF97F297B8132387141A4CF2C6B4AB645/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/9B9B31AEF97F297B8132387141A4CF2C6B4AB645/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/DDB85776F0E19C3EAA284C300A43CE20C69B6788/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/9B9B31AEF97F297B8132387141A4CF2C6B4AB645/processed"
+    "uri": "http://memex.zapto.org/data/page/DDB85776F0E19C3EAA284C300A43CE20C69B6788/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11292,18 +11272,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A2E060F8F0D7E049CD6A28CC4975C8B6347D3E92/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A3A165B8373F1AC0936BD26E86EFCC8DA276CC43/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A2E060F8F0D7E049CD6A28CC4975C8B6347D3E92/processed"
+    "uri": "http://memex.zapto.org/data/page/A3A165B8373F1AC0936BD26E86EFCC8DA276CC43/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A3A165B8373F1AC0936BD26E86EFCC8DA276CC43/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A2E060F8F0D7E049CD6A28CC4975C8B6347D3E92/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A3A165B8373F1AC0936BD26E86EFCC8DA276CC43/processed"
+    "uri": "http://memex.zapto.org/data/page/A2E060F8F0D7E049CD6A28CC4975C8B6347D3E92/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11364,18 +11344,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/FB180DE8B6823D4C9D07FE924014BD29C701947D/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/BB97EEB08FD7F0A56ADDBD5E2C725055CDB6E1BA/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/FB180DE8B6823D4C9D07FE924014BD29C701947D/processed"
+    "uri": "http://memex.zapto.org/data/page/BB97EEB08FD7F0A56ADDBD5E2C725055CDB6E1BA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/BB97EEB08FD7F0A56ADDBD5E2C725055CDB6E1BA/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/FB180DE8B6823D4C9D07FE924014BD29C701947D/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/BB97EEB08FD7F0A56ADDBD5E2C725055CDB6E1BA/processed"
+    "uri": "http://memex.zapto.org/data/page/FB180DE8B6823D4C9D07FE924014BD29C701947D/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11418,15 +11398,6 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D1AE42BD24914626D33A1F9C416BA54443289A68/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/D1AE42BD24914626D33A1F9C416BA54443289A68/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/224964BE029E30B2C9056FE2A7943A381F8EC7C1/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/224964BE029E30B2C9056FE2A7943A381F8EC7C1/processed"
@@ -11436,9 +11407,9 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/57C18520BF1E7CBA1326B81200E745BCB07BDF9B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D1AE42BD24914626D33A1F9C416BA54443289A68/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/57C18520BF1E7CBA1326B81200E745BCB07BDF9B/processed"
+    "uri": "http://memex.zapto.org/data/page/D1AE42BD24914626D33A1F9C416BA54443289A68/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11448,6 +11419,15 @@
         "uri": "http://memex.zapto.org/data/page/B8C12191AB49488D2339E108DE0D950FE2494A65/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/B8C12191AB49488D2339E108DE0D950FE2494A65/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/57C18520BF1E7CBA1326B81200E745BCB07BDF9B/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/57C18520BF1E7CBA1326B81200E745BCB07BDF9B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11598,18 +11578,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/7A08D14646F91412FD9D8DAF06F60CB4C5985C5E/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/6CEB2DE986303CE1753C0C25599DB9874F6CF6CC/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/7A08D14646F91412FD9D8DAF06F60CB4C5985C5E/processed"
+    "uri": "http://memex.zapto.org/data/page/6CEB2DE986303CE1753C0C25599DB9874F6CF6CC/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/6CEB2DE986303CE1753C0C25599DB9874F6CF6CC/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/7A08D14646F91412FD9D8DAF06F60CB4C5985C5E/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/6CEB2DE986303CE1753C0C25599DB9874F6CF6CC/processed"
+    "uri": "http://memex.zapto.org/data/page/7A08D14646F91412FD9D8DAF06F60CB4C5985C5E/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11670,18 +11650,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/D4965B5143FE2895E940D5BF32BC14DC71A01709/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C63181935AE048CB603D317DC572FB961C3CE8B9/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/D4965B5143FE2895E940D5BF32BC14DC71A01709/processed"
+    "uri": "http://memex.zapto.org/data/page/C63181935AE048CB603D317DC572FB961C3CE8B9/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C63181935AE048CB603D317DC572FB961C3CE8B9/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/D4965B5143FE2895E940D5BF32BC14DC71A01709/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C63181935AE048CB603D317DC572FB961C3CE8B9/processed"
+    "uri": "http://memex.zapto.org/data/page/D4965B5143FE2895E940D5BF32BC14DC71A01709/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11715,18 +11695,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/87E026FEC5D6E03FE94056FDA06C96A7CF8179AA/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/A89725C0B3D6D38C60C43AB400089F5251324880/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/87E026FEC5D6E03FE94056FDA06C96A7CF8179AA/processed"
+    "uri": "http://memex.zapto.org/data/page/A89725C0B3D6D38C60C43AB400089F5251324880/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/A89725C0B3D6D38C60C43AB400089F5251324880/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/87E026FEC5D6E03FE94056FDA06C96A7CF8179AA/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/A89725C0B3D6D38C60C43AB400089F5251324880/processed"
+    "uri": "http://memex.zapto.org/data/page/87E026FEC5D6E03FE94056FDA06C96A7CF8179AA/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11769,18 +11749,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/BE6D72F3C27AA45E1AD71CD80A53C42D2E054440/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/C52E2DAFD6506ADCA3665F6C4A520C91B3B33F7B/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/BE6D72F3C27AA45E1AD71CD80A53C42D2E054440/processed"
+    "uri": "http://memex.zapto.org/data/page/C52E2DAFD6506ADCA3665F6C4A520C91B3B33F7B/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/C52E2DAFD6506ADCA3665F6C4A520C91B3B33F7B/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/BE6D72F3C27AA45E1AD71CD80A53C42D2E054440/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/C52E2DAFD6506ADCA3665F6C4A520C91B3B33F7B/processed"
+    "uri": "http://memex.zapto.org/data/page/BE6D72F3C27AA45E1AD71CD80A53C42D2E054440/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -11805,6 +11785,15 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
+        "uri": "http://memex.zapto.org/data/page/F74C77FA851F0E28EBBE7CCCD1512C3B5D8CFD6A/processed/featurecollection"
+    },
+    "uri": "http://memex.zapto.org/data/page/F74C77FA851F0E28EBBE7CCCD1512C3B5D8CFD6A/processed"
+},
+{
+    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
+    "a": "WebPage",
+    "hasFeatureCollection": {
+        "a": "FeatureCollection",
         "uri": "http://memex.zapto.org/data/page/B4F6FDAFB22E39A7187E215F2BE7C28638484B1B/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/B4F6FDAFB22E39A7187E215F2BE7C28638484B1B/processed"
@@ -11817,15 +11806,6 @@
         "uri": "http://memex.zapto.org/data/page/30DB6A0B0B5B1EEB9A0BBB23200AC4E062092594/processed/featurecollection"
     },
     "uri": "http://memex.zapto.org/data/page/30DB6A0B0B5B1EEB9A0BBB23200AC4E062092594/processed"
-},
-{
-    "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
-    "a": "WebPage",
-    "hasFeatureCollection": {
-        "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/F74C77FA851F0E28EBBE7CCCD1512C3B5D8CFD6A/processed/featurecollection"
-    },
-    "uri": "http://memex.zapto.org/data/page/F74C77FA851F0E28EBBE7CCCD1512C3B5D8CFD6A/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -12012,18 +11992,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/74EE423E112547ED27B1D66020E55C8AD314AF35/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1DD692DB23909B8D4D48CE4054E322DC0F0BD7DF/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/74EE423E112547ED27B1D66020E55C8AD314AF35/processed"
+    "uri": "http://memex.zapto.org/data/page/1DD692DB23909B8D4D48CE4054E322DC0F0BD7DF/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1DD692DB23909B8D4D48CE4054E322DC0F0BD7DF/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/74EE423E112547ED27B1D66020E55C8AD314AF35/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1DD692DB23909B8D4D48CE4054E322DC0F0BD7DF/processed"
+    "uri": "http://memex.zapto.org/data/page/74EE423E112547ED27B1D66020E55C8AD314AF35/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
@@ -12057,18 +12037,18 @@
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/1B621017FAB50E89B466EFF38D1212F3A9D58896/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/2067BAF8CADAE2D54AD8B2E3BE7C727EAAB6EAA2/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/1B621017FAB50E89B466EFF38D1212F3A9D58896/processed"
+    "uri": "http://memex.zapto.org/data/page/2067BAF8CADAE2D54AD8B2E3BE7C727EAAB6EAA2/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
     "a": "WebPage",
     "hasFeatureCollection": {
         "a": "FeatureCollection",
-        "uri": "http://memex.zapto.org/data/page/2067BAF8CADAE2D54AD8B2E3BE7C727EAAB6EAA2/processed/featurecollection"
+        "uri": "http://memex.zapto.org/data/page/1B621017FAB50E89B466EFF38D1212F3A9D58896/processed/featurecollection"
     },
-    "uri": "http://memex.zapto.org/data/page/2067BAF8CADAE2D54AD8B2E3BE7C727EAAB6EAA2/processed"
+    "uri": "http://memex.zapto.org/data/page/1B621017FAB50E89B466EFF38D1212F3A9D58896/processed"
 },
 {
     "@context": "http://localhost:8080/publish/JSON/WSP29WS1-jpl-solr-pdf_json-context.json",
